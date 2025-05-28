@@ -1,20 +1,87 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# 📘 Tech Challenge – Fase 1 – FIAP Pós-Tech (.NET)
+## teste de documentação
+Criando documentação
+## 🧾 Visão Geral
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Este projeto é parte do Tech Challenge da Fase 1 da Pós-Graduação em Arquitetura de Software da FIAP. O objetivo é desenvolver uma API RESTful utilizando .NET para gerenciar o cadastro de usuários e jogos, aplicando os conceitos de Domain-Driven Design (DDD).
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## 🎯 Objetivos
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- Implementar uma API para cadastro e gerenciamento de usuários e jogos.
+- Aplicar os princípios de DDD na estruturação do projeto.
+- Utilizar boas práticas de desenvolvimento, incluindo testes automatizados.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## 🛠️ Tecnologias Utilizadas
+
+- .NET 8.0
+- ASP.NET Core WebApi
+- Entity Framework Core
+- SQL Server
+- xUnit para testes unitários
+- Swagger para documentação da API
+
+## 📁 Estrutura do Projeto
+
+```
+TechChalange_Fase1/
+├── FCG.Api/           # Camada de apresentação (controllers, endpoints)
+├── FCG.Business/      # Lógica de negócio (serviços, regras de negócio)
+├── FCG.Core/          # Entidades, interfaces e contratos
+├── FCG.Data/          # Acesso a dados (repositórios, contexto do EF)
+├── Tests/             # Projetos de teste automatizado
+├── FCG.sln            # Solução do Visual Studio
+└── README.md          # Documentação do projeto
+```
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/gsramos1991/TechChalange_Fase1.git
+   ```
+
+2. Abra a solução `FCG.sln` no Visual Studio 2022.
+
+3. Configure a string de conexão com o SQL Server no arquivo `appsettings.json` da camada `FCG.Api`.
+
+4. Execute as migrações para criar o banco de dados:
+
+   ```bash
+   dotnet ef database update
+   ```
+
+5. Inicie o projeto `FCG.Api` para rodar a API.
+
+6. Acesse a documentação Swagger em:
+
+   ```
+   https://localhost:{porta}/swagger
+   ```
+
+## ✅ Funcionalidades Implementadas
+
+- Cadastro de usuários com validações de e-mail e senha.
+- Autenticação de usuários com geração de token JWT.
+- Cadastro, atualização e remoção de jogos.
+- Listagem de jogos disponíveis.
+- Associação de jogos aos usuários (biblioteca pessoal).
+
+## 🧪 Testes Automatizados
+
+Os testes estão localizados na pasta `Tests/` e cobrem:
+
+- Validação de regras de negócio.
+- Testes de repositórios e serviços.
+- Testes de integração entre camadas.
+
+Para executar os testes:
+
+```bash
+dotnet test
+```
+
+## 📌 Considerações Finais
+
+Este projeto demonstra a aplicação prática dos conceitos de DDD em uma API RESTful utilizando .NET. A estrutura modular facilita a manutenção e escalabilidade da aplicação.
+
