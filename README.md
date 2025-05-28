@@ -85,7 +85,7 @@ dotnet test
 - 👨‍💻Gabriel Santos Ramos
 - 👨‍💻Júlio César de Carvalho
 - 👨‍💻Marco Antonio Araujo
-- 👩‍💻Yasmim Muniz Da Silva caraça
+- 👩‍💻Yasmim Muniz Da Silva Caraça
 
 ## 📌 Considerações Finais
 
