@@ -54,7 +54,7 @@ TechChalange_Fase1/
 
 6. Acesse a documentação Swagger em:
 
-   ```
+   ```bash
    https://localhost:{porta}/swagger
    ```
 
@@ -79,6 +79,13 @@ Para executar os testes:
 ```bash
 dotnet test
 ```
+
+##Idealizadores do projeto
+- Clovis Alceu Cassaro
+- Gabriel Santos Ramos
+- Júlio César de Carvalho
+- Marco Antonio Araujo
+- Yasmim Muniz Da Silva caraça
 
 ## 📌 Considerações Finais
 
