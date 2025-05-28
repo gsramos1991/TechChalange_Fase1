@@ -1,6 +1,5 @@
 # 📘 Tech Challenge – Fase 1 – FIAP Pós-Tech (.NET)
-## teste de documentação
-Criando documentação
+
 ## 🧾 Visão Geral
 
 Este projeto é parte do Tech Challenge da Fase 1 da Pós-Graduação em Arquitetura de Software da FIAP. O objetivo é desenvolver uma API RESTful utilizando .NET para gerenciar o cadastro de usuários e jogos, aplicando os conceitos de Domain-Driven Design (DDD).
