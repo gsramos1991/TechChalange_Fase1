@@ -80,12 +80,12 @@ Para executar os testes:
 dotnet test
 ```
 
-## Idealizadores do projeto
-- Clovis Alceu Cassaro
-- Gabriel Santos Ramos
-- Júlio César de Carvalho
-- Marco Antonio Araujo
-- Yasmim Muniz Da Silva caraça
+## 💻 Idealizadores do projeto
+- 👨‍💻Clovis Alceu Cassaro
+- 👨‍💻Gabriel Santos Ramos
+- 👨‍💻Júlio César de Carvalho
+- 👨‍💻Marco Antonio Araujo
+- 👩‍💻Yasmim Muniz Da Silva caraça
 
 ## 📌 Considerações Finais
 
