@@ -1,0 +1,996 @@
+2025-05-25 22:14:12.312 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:14:13.479 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:14:14.070 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:14:15.911 [Information] CorrelationId: Executed DbCommand ("208"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:14:16.146 [Information] CorrelationId: Executed DbCommand ("161"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:14:16.317 [Information] CorrelationId: Executed DbCommand ("160"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:14:16.526 [Information] CorrelationId: Executed DbCommand ("166"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:14:16.759 [Information] CorrelationId: Executed DbCommand ("193"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:14:16.775 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:14:16.887 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:14:17.299 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:14:17.299 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:14:17.363 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:14:17.363 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:14:17.364 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:14:18.184 [Information] CorrelationId:9e4e98c9-9200-4fae-98fe-0c1ee22992ab Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:14:18.446 [Information] CorrelationId:9e4e98c9-9200-4fae-98fe-0c1ee22992ab Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 269.3773ms
+2025-05-25 22:14:18.451 [Information] CorrelationId:91975aee-ae6c-4e7a-a3c4-70374c2cf60a Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:14:18.451 [Information] CorrelationId:777dd6b4-e103-4eeb-8a1f-438f59b7951c Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:14:18.464 [Information] CorrelationId:91975aee-ae6c-4e7a-a3c4-70374c2cf60a Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 13.2568ms
+2025-05-25 22:14:18.511 [Information] CorrelationId:777dd6b4-e103-4eeb-8a1f-438f59b7951c Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 60.1007ms
+2025-05-25 22:14:18.556 [Information] CorrelationId:f52dd6a7-6e68-45f6-b180-9ba039f961ff Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:14:18.572 [Information] CorrelationId:f52dd6a7-6e68-45f6-b180-9ba039f961ff Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 16.6566ms
+2025-05-25 22:16:22.591 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:16:23.856 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:16:24.392 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:16:26.243 [Information] CorrelationId: Executed DbCommand ("200"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:16:26.557 [Information] CorrelationId: Executed DbCommand ("246"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:16:26.728 [Information] CorrelationId: Executed DbCommand ("159"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:16:26.934 [Information] CorrelationId: Executed DbCommand ("165"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:16:27.131 [Information] CorrelationId: Executed DbCommand ("165"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:16:27.144 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:16:27.257 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:16:27.479 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:16:27.479 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:16:27.535 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:16:27.535 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:16:27.535 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:16:27.875 [Information] CorrelationId:e81a62e2-810e-431f-b89f-553fd0fe294f Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:16:28.118 [Information] CorrelationId:8210a84e-0b8e-4df3-8c23-d22933bcd6ab Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:16:28.124 [Information] CorrelationId:c05a4884-f196-4ee8-96a7-948e17379892 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:16:28.129 [Information] CorrelationId:e81a62e2-810e-431f-b89f-553fd0fe294f Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 258.2531ms
+2025-05-25 22:16:28.133 [Information] CorrelationId:8210a84e-0b8e-4df3-8c23-d22933bcd6ab Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 14.7613ms
+2025-05-25 22:16:28.187 [Information] CorrelationId:c05a4884-f196-4ee8-96a7-948e17379892 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 62.8263ms
+2025-05-25 22:16:28.227 [Information] CorrelationId:e0461d6d-1014-4fed-937a-e209440e7978 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:16:28.248 [Information] CorrelationId:e0461d6d-1014-4fed-937a-e209440e7978 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 21.1205ms
+2025-05-25 22:16:54.740 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:16:55.962 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:16:56.461 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:16:58.613 [Information] CorrelationId: Executed DbCommand ("250"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:16:58.857 [Information] CorrelationId: Executed DbCommand ("176"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:16:59.033 [Information] CorrelationId: Executed DbCommand ("165"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:16:59.265 [Information] CorrelationId: Executed DbCommand ("189"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:16:59.464 [Information] CorrelationId: Executed DbCommand ("169"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:16:59.477 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:16:59.588 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:16:59.803 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:16:59.804 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:16:59.861 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:16:59.861 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:16:59.862 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:17:00.163 [Information] CorrelationId:de080d7b-8c9c-4db4-b7ea-f7c585f812ac Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:17:00.391 [Information] CorrelationId:de080d7b-8c9c-4db4-b7ea-f7c585f812ac Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 235.0423ms
+2025-05-25 22:17:00.401 [Information] CorrelationId:ee4c48ab-34e5-4e73-b6c0-ecf3d456d351 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:17:00.403 [Information] CorrelationId:42be5d58-b1a3-4401-a4b4-7f6b886f1079 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:17:00.413 [Information] CorrelationId:42be5d58-b1a3-4401-a4b4-7f6b886f1079 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 9.7379ms
+2025-05-25 22:17:00.454 [Information] CorrelationId:ee4c48ab-34e5-4e73-b6c0-ecf3d456d351 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 52.6896ms
+2025-05-25 22:17:00.503 [Information] CorrelationId:ecf9a645-199b-4780-bd88-e69adb642681 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:17:00.533 [Information] CorrelationId:ecf9a645-199b-4780-bd88-e69adb642681 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 30.7486ms
+2025-05-25 22:17:44.298 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:17:45.373 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:17:46.092 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:17:48.088 [Information] CorrelationId: Executed DbCommand ("209"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:17:48.322 [Information] CorrelationId: Executed DbCommand ("157"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:17:48.523 [Information] CorrelationId: Executed DbCommand ("186"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:17:48.736 [Information] CorrelationId: Executed DbCommand ("157"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:17:48.934 [Information] CorrelationId: Executed DbCommand ("161"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:17:48.947 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:17:49.055 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:17:49.279 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:17:49.279 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:17:49.494 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:17:49.494 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:17:49.494 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:17:49.806 [Information] CorrelationId:72408def-4998-4c62-9fc1-df9cbfc08c38 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:17:50.108 [Information] CorrelationId:72408def-4998-4c62-9fc1-df9cbfc08c38 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 309.4671ms
+2025-05-25 22:17:50.158 [Information] CorrelationId:663ba5d5-1568-4db9-8e2e-c52c9bb7ddfc Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:17:50.221 [Information] CorrelationId:be00a125-0812-4de6-bfdb-551041a19235 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:17:50.238 [Information] CorrelationId:663ba5d5-1568-4db9-8e2e-c52c9bb7ddfc Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 79.9483ms
+2025-05-25 22:17:50.319 [Information] CorrelationId:be00a125-0812-4de6-bfdb-551041a19235 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 98.2293ms
+2025-05-25 22:17:50.439 [Information] CorrelationId:be88c4c5-c00f-488b-8ef4-88c9b1d4fb68 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:17:50.487 [Information] CorrelationId:be88c4c5-c00f-488b-8ef4-88c9b1d4fb68 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 47.8108ms
+2025-05-25 22:18:40.462 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:18:42.352 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:18:42.978 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:18:45.067 [Information] CorrelationId: Executed DbCommand ("213"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:18:45.310 [Information] CorrelationId: Executed DbCommand ("172"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:18:45.498 [Information] CorrelationId: Executed DbCommand ("175"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:18:45.732 [Information] CorrelationId: Executed DbCommand ("183"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:18:45.938 [Information] CorrelationId: Executed DbCommand ("173"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:18:45.954 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:18:46.054 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:18:46.261 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:18:46.261 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:18:46.321 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:18:46.321 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:18:46.321 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:18:46.759 [Information] CorrelationId:5db14f54-4eef-4a41-bd67-f1bf74d7d458 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:18:47.044 [Information] CorrelationId:5db14f54-4eef-4a41-bd67-f1bf74d7d458 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 290.716ms
+2025-05-25 22:18:47.046 [Information] CorrelationId:84b88c23-bb08-4246-8da2-208824cd4727 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:18:47.046 [Information] CorrelationId:8cb37755-0057-4e9f-a83f-8a7a24b50e80 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:18:47.052 [Information] CorrelationId:8cb37755-0057-4e9f-a83f-8a7a24b50e80 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 6.6168ms
+2025-05-25 22:18:47.102 [Information] CorrelationId:84b88c23-bb08-4246-8da2-208824cd4727 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 56.6244ms
+2025-05-25 22:18:47.151 [Information] CorrelationId:bab24bfb-e554-4b48-b690-4556e033307a Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:18:47.173 [Information] CorrelationId:bab24bfb-e554-4b48-b690-4556e033307a Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 22.4785ms
+2025-05-25 22:22:44.986 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:22:45.991 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:22:46.680 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:22:48.522 [Information] CorrelationId: Executed DbCommand ("210"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:22:48.786 [Information] CorrelationId: Executed DbCommand ("186"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:22:48.962 [Information] CorrelationId: Executed DbCommand ("159"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:22:49.169 [Information] CorrelationId: Executed DbCommand ("165"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:22:49.366 [Information] CorrelationId: Executed DbCommand ("165"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:22:49.379 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:22:49.484 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:22:49.676 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:22:49.676 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:22:49.742 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:22:49.743 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:22:49.743 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:22:49.924 [Information] CorrelationId:11ad818a-86c8-47a2-a597-4e438899ff12 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:22:50.180 [Information] CorrelationId:11ad818a-86c8-47a2-a597-4e438899ff12 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 260.4024ms
+2025-05-25 22:22:50.200 [Information] CorrelationId:ffd96f98-ca6f-42b8-bc45-226732f117a9 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:22:50.203 [Information] CorrelationId:7e60ed1b-51bf-4b1a-a8b1-d2d8fc6a9cd2 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:22:50.207 [Information] CorrelationId:ffd96f98-ca6f-42b8-bc45-226732f117a9 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 7.9256ms
+2025-05-25 22:22:50.259 [Information] CorrelationId:7e60ed1b-51bf-4b1a-a8b1-d2d8fc6a9cd2 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 56.3684ms
+2025-05-25 22:22:50.315 [Information] CorrelationId:b4bb4f53-3ed7-45cb-9636-989acf6860c1 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:22:50.332 [Information] CorrelationId:b4bb4f53-3ed7-45cb-9636-989acf6860c1 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 17.7487ms
+2025-05-25 22:23:47.612 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:23:48.572 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:23:49.180 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:23:51.011 [Information] CorrelationId: Executed DbCommand ("259"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:23:51.241 [Information] CorrelationId: Executed DbCommand ("156"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:23:51.412 [Information] CorrelationId: Executed DbCommand ("162"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:23:51.613 [Information] CorrelationId: Executed DbCommand ("159"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:23:51.805 [Information] CorrelationId: Executed DbCommand ("161"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:23:51.819 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:23:51.927 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:23:52.119 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:23:52.119 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:23:52.180 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:23:52.181 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:23:52.181 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:23:52.610 [Information] CorrelationId:75b9a287-4ad6-4eb3-a1e2-595b058788c6 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:23:52.836 [Information] CorrelationId:75b9a287-4ad6-4eb3-a1e2-595b058788c6 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 230.3649ms
+2025-05-25 22:23:52.842 [Information] CorrelationId:9a9e730a-90e8-46ab-a388-b01dd45f3d1a Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:23:52.849 [Information] CorrelationId:ab3b01bc-3f8a-4d13-a678-487044d14b40 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:23:52.854 [Information] CorrelationId:9a9e730a-90e8-46ab-a388-b01dd45f3d1a Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 11.828ms
+2025-05-25 22:23:52.894 [Information] CorrelationId:ab3b01bc-3f8a-4d13-a678-487044d14b40 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 44.9552ms
+2025-05-25 22:23:52.947 [Information] CorrelationId:8ae7ad3b-fd26-4cc4-a8a6-d899417e6ad3 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:23:52.975 [Information] CorrelationId:8ae7ad3b-fd26-4cc4-a8a6-d899417e6ad3 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 27.9694ms
+2025-05-25 22:28:25.793 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:28:26.817 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:28:27.342 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:28:29.056 [Information] CorrelationId: Executed DbCommand ("208"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:28:29.293 [Information] CorrelationId: Executed DbCommand ("159"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:28:29.460 [Information] CorrelationId: Executed DbCommand ("153"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:28:29.654 [Information] CorrelationId: Executed DbCommand ("152"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:28:29.836 [Information] CorrelationId: Executed DbCommand ("152"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:28:29.849 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:28:29.950 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:28:30.142 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:28:30.142 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:28:30.226 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:28:30.226 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:28:30.226 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:28:30.436 [Information] CorrelationId:061e49aa-33c1-4791-8640-0219a258c126 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:28:30.708 [Information] CorrelationId:061e49aa-33c1-4791-8640-0219a258c126 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 277.7437ms
+2025-05-25 22:28:30.751 [Information] CorrelationId:fc5c8693-ced3-46e9-ba19-53adac4c6b93 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:28:30.751 [Information] CorrelationId:f69787ef-d473-4820-80d8-1ce081484b72 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:28:30.759 [Information] CorrelationId:f69787ef-d473-4820-80d8-1ce081484b72 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 8.4393ms
+2025-05-25 22:28:30.793 [Information] CorrelationId:fc5c8693-ced3-46e9-ba19-53adac4c6b93 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 42.4246ms
+2025-05-25 22:28:30.836 [Information] CorrelationId:f394945a-be56-4fe6-9089-7c1ea7c68452 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:28:30.868 [Information] CorrelationId:f394945a-be56-4fe6-9089-7c1ea7c68452 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 32.2026ms
+2025-05-25 22:28:41.002 [Information] CorrelationId:34bed01c-c2aa-4ed5-bbb4-88417b9380a7 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-25 22:28:41.094 [Information] CorrelationId:34bed01c-c2aa-4ed5-bbb4-88417b9380a7 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:28:41.098 [Information] CorrelationId:34bed01c-c2aa-4ed5-bbb4-88417b9380a7 AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:28:41.098 [Information] CorrelationId:34bed01c-c2aa-4ed5-bbb4-88417b9380a7 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto""" - 401 0 null 96.1201ms
+2025-05-25 22:32:26.354 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:32:27.682 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:32:28.384 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:32:30.192 [Information] CorrelationId: Executed DbCommand ("212"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:32:30.445 [Information] CorrelationId: Executed DbCommand ("154"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:32:30.617 [Information] CorrelationId: Executed DbCommand ("153"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:32:30.820 [Information] CorrelationId: Executed DbCommand ("152"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:32:31.040 [Information] CorrelationId: Executed DbCommand ("155"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:32:31.055 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:32:31.268 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:32:31.542 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:32:31.542 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:32:31.624 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:32:31.624 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:32:31.624 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:32:32.106 [Information] CorrelationId:0c57cae6-25f5-47ab-8f18-c396ad3ac602 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:32:32.446 [Error] CorrelationId:0c57cae6-25f5-47ab-8f18-c396ad3ac602 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-25 22:32:32.551 [Information] CorrelationId:0c57cae6-25f5-47ab-8f18-c396ad3ac602 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 500 null "text/html; charset=utf-8" 451.557ms
+2025-05-25 22:32:32.594 [Information] CorrelationId:31d5df2d-4c3a-4ca7-b2e7-dd2eda42c67c Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:32:32.607 [Information] CorrelationId:34224cb9-e825-440b-847b-4ee9fc2afd02 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:32:32.624 [Information] CorrelationId:31d5df2d-4c3a-4ca7-b2e7-dd2eda42c67c Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 33.8575ms
+2025-05-25 22:32:32.706 [Information] CorrelationId:34224cb9-e825-440b-847b-4ee9fc2afd02 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 98.8346ms
+2025-05-25 22:32:32.750 [Information] CorrelationId:952dff79-da91-402f-813c-a1fc2ebc2d1f Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/favicon.ico""" - null null
+2025-05-25 22:32:32.752 [Error] CorrelationId:952dff79-da91-402f-813c-a1fc2ebc2d1f An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CachingParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-25 22:32:32.755 [Information] CorrelationId:952dff79-da91-402f-813c-a1fc2ebc2d1f Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/favicon.ico""" - 500 null "text/plain; charset=utf-8" 5.2177ms
+2025-05-25 22:35:23.510 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:35:25.174 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:35:25.955 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:35:27.765 [Information] CorrelationId: Executed DbCommand ("206"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:35:28.000 [Information] CorrelationId: Executed DbCommand ("152"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:35:28.170 [Information] CorrelationId: Executed DbCommand ("155"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:35:28.381 [Information] CorrelationId: Executed DbCommand ("153"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:35:28.571 [Information] CorrelationId: Executed DbCommand ("151"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:35:28.594 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:35:28.732 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:35:28.982 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:35:28.982 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:35:29.177 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:35:29.178 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:35:29.178 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:35:29.379 [Information] CorrelationId:ced254ec-e515-4791-8e3e-f1184ffe8ce2 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:35:29.744 [Information] CorrelationId:ced254ec-e515-4791-8e3e-f1184ffe8ce2 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 370.9987ms
+2025-05-25 22:35:29.757 [Information] CorrelationId:b26a428d-0614-4355-8ae4-87cea07c4232 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:35:29.771 [Information] CorrelationId:f9591242-8e16-4bd6-9a7f-30f9e4226e9c Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:35:29.771 [Information] CorrelationId:b26a428d-0614-4355-8ae4-87cea07c4232 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 14.8353ms
+2025-05-25 22:35:29.854 [Information] CorrelationId:f9591242-8e16-4bd6-9a7f-30f9e4226e9c Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 83.0594ms
+2025-05-25 22:35:29.937 [Information] CorrelationId:99aae4cb-2fa6-40b4-aab6-b780dcd489c5 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:35:30.004 [Information] CorrelationId:99aae4cb-2fa6-40b4-aab6-b780dcd489c5 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 66.9868ms
+2025-05-25 22:35:38.219 [Information] CorrelationId:dcca0451-c186-4db1-a492-0b6f1fe9a57d Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 22:35:38.335 [Information] CorrelationId:dcca0451-c186-4db1-a492-0b6f1fe9a57d Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:35:38.339 [Information] CorrelationId:dcca0451-c186-4db1-a492-0b6f1fe9a57d AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:35:38.340 [Information] CorrelationId:dcca0451-c186-4db1-a492-0b6f1fe9a57d Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 120.5756ms
+2025-05-25 22:40:24.610 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:40:25.662 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:40:26.286 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:40:28.300 [Information] CorrelationId: Executed DbCommand ("221"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:40:28.547 [Information] CorrelationId: Executed DbCommand ("170"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:40:28.739 [Information] CorrelationId: Executed DbCommand ("173"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:40:28.954 [Information] CorrelationId: Executed DbCommand ("167"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:40:29.163 [Information] CorrelationId: Executed DbCommand ("167"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:40:29.179 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:40:29.334 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:40:29.598 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:40:29.598 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:40:29.699 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:40:29.700 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:40:29.700 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:40:30.960 [Information] CorrelationId:5567cfa7-4c7f-489f-882b-2053a58909cd Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:40:31.405 [Information] CorrelationId:5567cfa7-4c7f-489f-882b-2053a58909cd Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 452.0901ms
+2025-05-25 22:40:31.440 [Information] CorrelationId:ce18a875-0a16-4870-8102-f6ec1547d073 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:40:31.498 [Information] CorrelationId:f397db77-0c33-4763-ab92-27370f73990b Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:40:31.711 [Information] CorrelationId:f397db77-0c33-4763-ab92-27370f73990b Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 213.1228ms
+2025-05-25 22:40:31.986 [Information] CorrelationId:ce18a875-0a16-4870-8102-f6ec1547d073 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 546.0674ms
+2025-05-25 22:40:32.038 [Information] CorrelationId:cbb3912e-5203-44fd-bd53-c722728d89b1 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:40:32.077 [Information] CorrelationId:cbb3912e-5203-44fd-bd53-c722728d89b1 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 46.9553ms
+2025-05-25 22:43:33.436 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:43:35.176 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:43:35.965 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:43:37.879 [Information] CorrelationId: Executed DbCommand ("218"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:43:38.148 [Information] CorrelationId: Executed DbCommand ("169"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:43:38.326 [Information] CorrelationId: Executed DbCommand ("156"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:43:38.540 [Information] CorrelationId: Executed DbCommand ("154"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:43:38.754 [Information] CorrelationId: Executed DbCommand ("165"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:43:38.779 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:43:38.938 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:43:39.201 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:43:39.201 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:43:39.310 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:43:39.310 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:43:39.310 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:43:39.706 [Information] CorrelationId:3ded83b2-65fb-46c3-b609-0aa274aec35d Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:43:40.044 [Information] CorrelationId:3ded83b2-65fb-46c3-b609-0aa274aec35d Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 342.0344ms
+2025-05-25 22:43:40.070 [Information] CorrelationId:bf0ae797-f6a0-42ce-b638-cc9ac6de5e49 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:43:40.100 [Information] CorrelationId:bf0ae797-f6a0-42ce-b638-cc9ac6de5e49 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 30.8027ms
+2025-05-25 22:43:40.101 [Information] CorrelationId:91c470e5-59b8-459e-b7be-d13ace5127c3 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:43:40.319 [Information] CorrelationId:91c470e5-59b8-459e-b7be-d13ace5127c3 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 218.534ms
+2025-05-25 22:43:40.455 [Information] CorrelationId:1d81ba6c-9e8f-477e-87cb-f1113a91d130 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:43:40.558 [Information] CorrelationId:1d81ba6c-9e8f-477e-87cb-f1113a91d130 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 102.5906ms
+2025-05-25 22:46:34.289 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:46:35.896 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:46:36.607 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:46:38.504 [Information] CorrelationId: Executed DbCommand ("222"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:46:38.774 [Information] CorrelationId: Executed DbCommand ("155"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:46:38.939 [Information] CorrelationId: Executed DbCommand ("153"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:46:39.174 [Information] CorrelationId: Executed DbCommand ("163"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:46:39.357 [Information] CorrelationId: Executed DbCommand ("151"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:46:39.371 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:46:39.503 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:46:39.745 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:46:39.745 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:46:39.857 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:46:39.858 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:46:39.858 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:46:40.545 [Information] CorrelationId:cc5d594b-362e-4ab2-8759-0b23a13bed77 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:46:40.925 [Information] CorrelationId:cc5d594b-362e-4ab2-8759-0b23a13bed77 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 386.8771ms
+2025-05-25 22:46:40.976 [Information] CorrelationId:d2fc9681-e575-4c48-ac80-9a30530a6351 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:46:41.008 [Information] CorrelationId:d2fc9681-e575-4c48-ac80-9a30530a6351 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 32.0541ms
+2025-05-25 22:46:41.009 [Information] CorrelationId:dbf74019-9563-4f93-938f-ee2afa030335 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:46:41.190 [Information] CorrelationId:dbf74019-9563-4f93-938f-ee2afa030335 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 180.7569ms
+2025-05-25 22:46:41.262 [Information] CorrelationId:e73cac98-527e-4717-84ac-e250a5240cc7 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:46:41.531 [Information] CorrelationId:e73cac98-527e-4717-84ac-e250a5240cc7 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 269.437ms
+2025-05-25 22:49:55.524 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:49:57.310 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:49:58.008 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:49:59.861 [Information] CorrelationId: Executed DbCommand ("217"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:50:00.120 [Information] CorrelationId: Executed DbCommand ("158"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:50:00.288 [Information] CorrelationId: Executed DbCommand ("155"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:50:00.492 [Information] CorrelationId: Executed DbCommand ("156"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:50:00.824 [Information] CorrelationId: Executed DbCommand ("284"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:50:00.901 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:50:00.920 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:50:01.352 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:50:01.352 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:50:01.457 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:50:01.458 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:50:01.458 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:50:02.103 [Information] CorrelationId:2e173367-eb2a-407b-b0d0-fc55d95ea142 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:50:02.564 [Information] CorrelationId:2e173367-eb2a-407b-b0d0-fc55d95ea142 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 473.6704ms
+2025-05-25 22:50:02.646 [Information] CorrelationId:b43bec36-9572-4a3e-82f7-425be7fc4314 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:50:02.712 [Information] CorrelationId:f6c6ea55-a12e-4958-890e-5e8f4877cfad Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:50:02.714 [Information] CorrelationId:b43bec36-9572-4a3e-82f7-425be7fc4314 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 67.6947ms
+2025-05-25 22:50:02.780 [Information] CorrelationId:f6c6ea55-a12e-4958-890e-5e8f4877cfad Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 68.6659ms
+2025-05-25 22:50:02.832 [Information] CorrelationId:daed9fbd-1440-45ad-aba7-1765bb7a04ef Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:50:02.851 [Information] CorrelationId:daed9fbd-1440-45ad-aba7-1765bb7a04ef Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 19.781ms
+2025-05-25 22:50:10.673 [Information] CorrelationId:230e6097-a4c2-4a71-8842-0ad05ad892ca Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 22:50:10.813 [Information] CorrelationId:230e6097-a4c2-4a71-8842-0ad05ad892ca Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:50:10.820 [Warning] CorrelationId:230e6097-a4c2-4a71-8842-0ad05ad892ca JWT Challenge: 
+2025-05-25 22:50:10.833 [Information] CorrelationId:230e6097-a4c2-4a71-8842-0ad05ad892ca AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:50:10.834 [Information] CorrelationId:230e6097-a4c2-4a71-8842-0ad05ad892ca Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 160.5211ms
+2025-05-25 22:53:15.940 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:53:17.832 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:53:18.549 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:53:20.490 [Information] CorrelationId: Executed DbCommand ("204"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:53:20.743 [Information] CorrelationId: Executed DbCommand ("158"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:53:20.914 [Information] CorrelationId: Executed DbCommand ("154"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:53:21.130 [Information] CorrelationId: Executed DbCommand ("155"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:53:21.321 [Information] CorrelationId: Executed DbCommand ("152"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:53:21.344 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:53:21.361 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:53:21.575 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:53:21.575 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:53:21.660 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:53:21.661 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:53:21.661 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:53:22.148 [Information] CorrelationId:b74127b2-0bc8-46d0-bcd5-84e8ade86e4b Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:53:22.532 [Information] CorrelationId:b74127b2-0bc8-46d0-bcd5-84e8ade86e4b Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 391.3265ms
+2025-05-25 22:53:22.704 [Information] CorrelationId:34af0c6e-1d07-4ba5-a8f7-311655fe254e Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:53:22.705 [Information] CorrelationId:6ff7c107-0d8e-4daf-99fd-966155083593 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:53:22.835 [Information] CorrelationId:34af0c6e-1d07-4ba5-a8f7-311655fe254e Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 131.3943ms
+2025-05-25 22:53:22.992 [Information] CorrelationId:6ff7c107-0d8e-4daf-99fd-966155083593 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 287.4946ms
+2025-05-25 22:53:23.084 [Information] CorrelationId:c68d3ab5-7df6-4bf5-8669-34dadc585148 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:53:23.117 [Information] CorrelationId:c68d3ab5-7df6-4bf5-8669-34dadc585148 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 33.6353ms
+2025-05-25 22:53:32.726 [Information] CorrelationId:a551565e-8844-4123-8a7f-71b92435359e Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 22:53:32.836 [Information] CorrelationId:a551565e-8844-4123-8a7f-71b92435359e Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:53:32.841 [Warning] CorrelationId:a551565e-8844-4123-8a7f-71b92435359e JWT Challenge: 
+2025-05-25 22:53:32.846 [Information] CorrelationId:a551565e-8844-4123-8a7f-71b92435359e AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:53:32.846 [Information] CorrelationId:a551565e-8844-4123-8a7f-71b92435359e Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 119.8589ms
+2025-05-25 22:56:08.573 [Information] CorrelationId:09bd7214-bc09-4587-83e3-0b2068929a77 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 63
+2025-05-25 22:56:08.587 [Information] CorrelationId:09bd7214-bc09-4587-83e3-0b2068929a77 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:56:08.587 [Warning] CorrelationId:09bd7214-bc09-4587-83e3-0b2068929a77 JWT Challenge: 
+2025-05-25 22:56:08.588 [Information] CorrelationId:09bd7214-bc09-4587-83e3-0b2068929a77 AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:56:08.588 [Information] CorrelationId:09bd7214-bc09-4587-83e3-0b2068929a77 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 401 0 null 15.2039ms
+2025-05-25 22:56:41.868 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 22:56:43.764 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 22:56:44.647 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 22:56:46.572 [Information] CorrelationId: Executed DbCommand ("233"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:56:46.860 [Information] CorrelationId: Executed DbCommand ("171"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 22:56:47.042 [Information] CorrelationId: Executed DbCommand ("170"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 22:56:47.283 [Information] CorrelationId: Executed DbCommand ("170"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 22:56:47.501 [Information] CorrelationId: Executed DbCommand ("168"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 22:56:47.523 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 22:56:47.541 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 22:56:47.768 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 22:56:47.768 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 22:56:47.853 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 22:56:47.854 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 22:56:47.854 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 22:56:48.274 [Information] CorrelationId:bcc35203-e6c5-4974-9189-6de5e4d56ebe Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 22:56:48.617 [Information] CorrelationId:bcc35203-e6c5-4974-9189-6de5e4d56ebe Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 353.5998ms
+2025-05-25 22:56:48.678 [Information] CorrelationId:e72ff5d1-48df-43bb-a1f6-0d60c0193c98 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 22:56:48.695 [Information] CorrelationId:9abbd676-5d4e-402c-bb08-c98b1d793aa5 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 22:56:48.761 [Information] CorrelationId:e72ff5d1-48df-43bb-a1f6-0d60c0193c98 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 83.5739ms
+2025-05-25 22:56:48.990 [Information] CorrelationId:9abbd676-5d4e-402c-bb08-c98b1d793aa5 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 294.4231ms
+2025-05-25 22:56:49.071 [Information] CorrelationId:8b3747b2-52ef-4d81-9f26-ec798d67d5e4 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 22:56:49.095 [Information] CorrelationId:8b3747b2-52ef-4d81-9f26-ec798d67d5e4 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 23.7865ms
+2025-05-25 22:57:11.870 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 63
+2025-05-25 22:57:11.988 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 22:57:12.016 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-05-25 22:57:12.332 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Executed DbCommand ("176"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-25 22:57:12.715 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Executed DbCommand ("180"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-25 22:57:12.776 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType4`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-25 22:57:12.798 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 776.2479ms
+2025-05-25 22:57:12.798 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 22:57:12.805 [Information] CorrelationId:f802b045-7144-4bdb-b7cc-de53a7e03491 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 934.8671ms
+2025-05-25 22:57:55.836 [Information] CorrelationId:2d4737ad-bb11-4236-8a19-0540e0f48f0e Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 22:57:55.890 [Information] CorrelationId:2d4737ad-bb11-4236-8a19-0540e0f48f0e Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:57:55.894 [Warning] CorrelationId:2d4737ad-bb11-4236-8a19-0540e0f48f0e JWT Challenge: 
+2025-05-25 22:57:55.897 [Information] CorrelationId:2d4737ad-bb11-4236-8a19-0540e0f48f0e AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:57:55.897 [Information] CorrelationId:2d4737ad-bb11-4236-8a19-0540e0f48f0e Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 61.1365ms
+2025-05-25 22:59:04.257 [Information] CorrelationId:8710eace-c64f-4386-86a7-288a56d5fc19 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 22:59:04.266 [Information] CorrelationId:8710eace-c64f-4386-86a7-288a56d5fc19 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:59:04.267 [Warning] CorrelationId:8710eace-c64f-4386-86a7-288a56d5fc19 JWT Challenge: 
+2025-05-25 22:59:04.268 [Information] CorrelationId:8710eace-c64f-4386-86a7-288a56d5fc19 AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:59:04.268 [Information] CorrelationId:8710eace-c64f-4386-86a7-288a56d5fc19 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 11.4095ms
+2025-05-25 22:59:16.503 [Information] CorrelationId:862181b3-5da6-4b49-a4bf-b8ed11cd7dd8 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/Protegido""?version=1.0" - null null
+2025-05-25 22:59:16.514 [Information] CorrelationId:862181b3-5da6-4b49-a4bf-b8ed11cd7dd8 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:59:16.514 [Warning] CorrelationId:862181b3-5da6-4b49-a4bf-b8ed11cd7dd8 JWT Challenge: 
+2025-05-25 22:59:16.514 [Information] CorrelationId:862181b3-5da6-4b49-a4bf-b8ed11cd7dd8 AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:59:16.514 [Information] CorrelationId:862181b3-5da6-4b49-a4bf-b8ed11cd7dd8 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/Protegido""?version=1.0" - 401 0 null 11.3127ms
+2025-05-25 22:59:29.173 [Information] CorrelationId:17ff8996-00b7-442f-9ec9-5363a3a0de05 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/Protegido/perfil""?version=1.0" - null null
+2025-05-25 22:59:29.174 [Information] CorrelationId:17ff8996-00b7-442f-9ec9-5363a3a0de05 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 22:59:29.174 [Warning] CorrelationId:17ff8996-00b7-442f-9ec9-5363a3a0de05 JWT Challenge: 
+2025-05-25 22:59:29.175 [Information] CorrelationId:17ff8996-00b7-442f-9ec9-5363a3a0de05 AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 22:59:29.175 [Information] CorrelationId:17ff8996-00b7-442f-9ec9-5363a3a0de05 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/Protegido/perfil""?version=1.0" - 401 0 null 2.0021ms
+2025-05-25 23:02:53.561 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 23:02:55.367 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 23:02:56.018 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 23:02:57.858 [Information] CorrelationId: Executed DbCommand ("215"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 23:02:58.112 [Information] CorrelationId: Executed DbCommand ("156"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 23:02:58.280 [Information] CorrelationId: Executed DbCommand ("156"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 23:02:58.496 [Information] CorrelationId: Executed DbCommand ("162"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 23:02:58.712 [Information] CorrelationId: Executed DbCommand ("175"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 23:02:58.741 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 23:02:58.764 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 23:02:59.330 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 23:02:59.330 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 23:02:59.440 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 23:02:59.441 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 23:02:59.441 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 23:02:59.823 [Information] CorrelationId:81e0d3d2-a4fd-44e4-ad67-502f206a4e47 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 23:03:00.112 [Information] CorrelationId:81e0d3d2-a4fd-44e4-ad67-502f206a4e47 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 297.6553ms
+2025-05-25 23:03:00.130 [Information] CorrelationId:d72784d4-58ad-41c3-b753-e5a101e05127 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 23:03:00.130 [Information] CorrelationId:4546f7e2-bfa4-4d56-84fa-475f53f7db24 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 23:03:00.142 [Information] CorrelationId:4546f7e2-bfa4-4d56-84fa-475f53f7db24 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 12.512ms
+2025-05-25 23:03:00.183 [Information] CorrelationId:d72784d4-58ad-41c3-b753-e5a101e05127 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 52.9769ms
+2025-05-25 23:03:00.267 [Information] CorrelationId:3bb0794b-a880-49f8-a527-003794d95ad3 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 23:03:00.309 [Information] CorrelationId:3bb0794b-a880-49f8-a527-003794d95ad3 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 41.4498ms
+2025-05-25 23:03:07.120 [Information] CorrelationId:6a78c495-5051-4192-bb6f-17c29b32c4cb Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 23:03:07.267 [Information] CorrelationId:6a78c495-5051-4192-bb6f-17c29b32c4cb Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 23:03:07.277 [Warning] CorrelationId:6a78c495-5051-4192-bb6f-17c29b32c4cb JWT Challenge: 
+2025-05-25 23:03:07.280 [Information] CorrelationId:6a78c495-5051-4192-bb6f-17c29b32c4cb AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 23:03:07.280 [Information] CorrelationId:6a78c495-5051-4192-bb6f-17c29b32c4cb Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 159.9602ms
+2025-05-25 23:03:29.838 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 63
+2025-05-25 23:03:29.855 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 23:03:29.877 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-05-25 23:03:30.173 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Executed DbCommand ("158"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-25 23:03:30.538 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Executed DbCommand ("156"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-25 23:03:30.604 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-25 23:03:30.619 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 738.5762ms
+2025-05-25 23:03:30.620 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 23:03:30.627 [Information] CorrelationId:936f52da-27b7-422d-b43d-a91ea81be1fb Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 788.9943ms
+2025-05-25 23:03:51.130 [Information] CorrelationId:a806a6a9-da64-49e7-83d3-a4fcde9306f7 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 23:03:51.135 [Information] CorrelationId:a806a6a9-da64-49e7-83d3-a4fcde9306f7 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 23:03:51.135 [Warning] CorrelationId:a806a6a9-da64-49e7-83d3-a4fcde9306f7 JWT Challenge: 
+2025-05-25 23:03:51.136 [Information] CorrelationId:a806a6a9-da64-49e7-83d3-a4fcde9306f7 AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 23:03:51.137 [Information] CorrelationId:a806a6a9-da64-49e7-83d3-a4fcde9306f7 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 6.8261ms
+2025-05-25 23:06:17.139 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 23:06:18.943 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 23:06:19.707 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 23:06:21.611 [Information] CorrelationId: Executed DbCommand ("210"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 23:06:21.876 [Information] CorrelationId: Executed DbCommand ("155"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 23:06:22.049 [Information] CorrelationId: Executed DbCommand ("157"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 23:06:22.354 [Information] CorrelationId: Executed DbCommand ("154"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 23:06:22.555 [Information] CorrelationId: Executed DbCommand ("156"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 23:06:22.573 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 23:06:22.591 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 23:06:22.830 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 23:06:22.830 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 23:06:22.930 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 23:06:22.931 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 23:06:22.931 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 23:06:23.605 [Information] CorrelationId:7e90ae46-242a-4c49-8b76-6bab97e54d39 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 23:06:23.994 [Information] CorrelationId:7e90ae46-242a-4c49-8b76-6bab97e54d39 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 397.2493ms
+2025-05-25 23:06:24.018 [Information] CorrelationId:dc48ebbb-14cd-4ae8-a75b-8a51f8fc2502 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 23:06:24.034 [Information] CorrelationId:bf099fb6-b146-4423-86a6-9b327c6fb360 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 23:06:24.036 [Information] CorrelationId:dc48ebbb-14cd-4ae8-a75b-8a51f8fc2502 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 18.2714ms
+2025-05-25 23:06:24.283 [Information] CorrelationId:bf099fb6-b146-4423-86a6-9b327c6fb360 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 249.1432ms
+2025-05-25 23:06:24.429 [Information] CorrelationId:a715a7b9-5758-42eb-9634-adb7d179860b Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 23:06:24.449 [Information] CorrelationId:a715a7b9-5758-42eb-9634-adb7d179860b Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 20.3747ms
+2025-05-25 23:30:59.348 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 23:31:00.658 [Fatal] CorrelationId: Host terminated unexpectedly
+System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Agehab.IdentidadeApi.Configuration.SwaggerConfig.ConfigureSwaggerVersioning(IServiceCollection services, IApiVersionDescriptionProvider provider) in C:\Users\cesar\source\repos\Fase01\FCG.Api\Configuration\SwaggerConfig.cs:line 79
+   at Program.<Main>$(String[] args) in C:\Users\cesar\source\repos\Fase01\FCG.Api\Program.cs:line 91
+2025-05-25 23:31:12.836 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 23:31:14.453 [Fatal] CorrelationId: Host terminated unexpectedly
+System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Agehab.IdentidadeApi.Configuration.SwaggerConfig.ConfigureSwaggerVersioning(IServiceCollection services, IApiVersionDescriptionProvider provider) in C:\Users\cesar\source\repos\Fase01\FCG.Api\Configuration\SwaggerConfig.cs:line 79
+   at Program.<Main>$(String[] args) in C:\Users\cesar\source\repos\Fase01\FCG.Api\Program.cs:line 91
+2025-05-25 23:38:32.973 [Information] CorrelationId: Iniciando WebApi
+2025-05-25 23:38:35.782 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-25 23:38:36.513 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-25 23:38:38.619 [Information] CorrelationId: Executed DbCommand ("236"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 23:38:38.861 [Information] CorrelationId: Executed DbCommand ("166"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-05-25 23:38:39.071 [Information] CorrelationId: Executed DbCommand ("195"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-05-25 23:38:39.313 [Information] CorrelationId: Executed DbCommand ("167"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-05-25 23:38:39.530 [Information] CorrelationId: Executed DbCommand ("167"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-05-25 23:38:39.554 [Information] CorrelationId: Usuário administrador já existe: admin@fiap.com.br
+2025-05-25 23:38:39.577 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-25 23:38:39.944 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-25 23:38:39.944 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-25 23:38:40.146 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-25 23:38:40.147 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-25 23:38:40.147 [Information] CorrelationId: Content root path: "C:\Users\cesar\source\repos\Fase01\FCG.Api"
+2025-05-25 23:38:40.832 [Information] CorrelationId:6c7b2278-3187-4929-b3ca-81b5275ce653 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-25 23:38:41.666 [Information] CorrelationId:6c7b2278-3187-4929-b3ca-81b5275ce653 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 840.3295ms
+2025-05-25 23:38:41.749 [Information] CorrelationId:2df20c22-4860-4d45-972b-92b2ba21772c Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-25 23:38:41.749 [Information] CorrelationId:01c1cad8-0bdb-490f-9397-0e5cd39053f0 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-25 23:38:41.764 [Information] CorrelationId:01c1cad8-0bdb-490f-9397-0e5cd39053f0 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 14.9582ms
+2025-05-25 23:38:41.908 [Information] CorrelationId:2df20c22-4860-4d45-972b-92b2ba21772c Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 159.6127ms
+2025-05-25 23:38:41.956 [Information] CorrelationId:87a8172e-7dae-4ee8-8dae-aad05407280d Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-25 23:38:42.005 [Information] CorrelationId:87a8172e-7dae-4ee8-8dae-aad05407280d Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 48.604ms
+2025-05-25 23:38:53.364 [Information] CorrelationId:df0a132d-43cd-4dcb-ba0c-4674a3392529 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 23:38:53.526 [Information] CorrelationId:df0a132d-43cd-4dcb-ba0c-4674a3392529 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 23:38:53.532 [Warning] CorrelationId:df0a132d-43cd-4dcb-ba0c-4674a3392529 JWT Challenge: 
+2025-05-25 23:38:53.541 [Information] CorrelationId:df0a132d-43cd-4dcb-ba0c-4674a3392529 AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 23:38:53.542 [Information] CorrelationId:df0a132d-43cd-4dcb-ba0c-4674a3392529 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 177.63ms
+2025-05-25 23:39:27.138 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 63
+2025-05-25 23:39:27.147 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 23:39:27.264 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-05-25 23:39:27.616 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Executed DbCommand ("172"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-25 23:39:28.002 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Executed DbCommand ("172"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-25 23:39:28.067 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-25 23:39:28.090 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 822.0949ms
+2025-05-25 23:39:28.091 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 23:39:28.096 [Information] CorrelationId:96e250eb-3aa5-43e9-8b25-cf76c068bd89 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 958.7306ms
+2025-05-25 23:40:00.929 [Information] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 23:40:00.967 [Information] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-05-25 23:40:00.995 [Information] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c JWT Authentication failed: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-05-25 23:40:00.995 [Information] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c "Bearer" was not authenticated. Failure message: "IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string."
+2025-05-25 23:40:00.997 [Information] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-25 23:40:00.998 [Warning] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c JWT Challenge: 
+2025-05-25 23:40:00.999 [Information] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c AuthenticationScheme: "Bearer" was challenged.
+2025-05-25 23:40:00.999 [Information] CorrelationId:f123dd9a-3129-45b2-9d4a-c1bf5298d05c Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 401 0 null 69.2768ms
+2025-05-25 23:40:17.454 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 23:40:17.505 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 JWT Token validated for user: cesarsoft@gmail.com
+2025-05-25 23:40:17.509 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Executing endpoint '"FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-25 23:40:17.514 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.ProdutoController" ("FCG.Api").
+2025-05-25 23:40:17.726 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Executed DbCommand ("177"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Excluido] = CAST(0 AS bit)
+ORDER BY [p].[Nome]"
+2025-05-25 23:40:17.734 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-25 23:40:17.754 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Executed action "FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)" in 240.5443ms
+2025-05-25 23:40:17.755 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Executed endpoint '"FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-25 23:40:17.755 [Information] CorrelationId:2f288fdb-51ef-42c5-8374-a6984a145f21 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 200 null "application/json; charset=utf-8" 301.2027ms
+2025-05-25 23:41:38.769 [Information] CorrelationId:44516262-958d-45e3-ac85-ef3a4451c10f Request starting "HTTP/2" "PUT" "https"://"localhost:7087""""/api/v1/Produto/Alterar3fa85f64-5717-4562-b3fc-2c963f66afa6""" - "application/json" 247
+2025-05-25 23:41:38.773 [Information] CorrelationId:44516262-958d-45e3-ac85-ef3a4451c10f JWT Token validated for user: cesarsoft@gmail.com
+2025-05-25 23:41:38.776 [Information] CorrelationId:44516262-958d-45e3-ac85-ef3a4451c10f Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)"
+2025-05-25 23:41:38.778 [Information] CorrelationId:44516262-958d-45e3-ac85-ef3a4451c10f AuthenticationScheme: "Bearer" was forbidden.
+2025-05-25 23:41:38.778 [Information] CorrelationId:44516262-958d-45e3-ac85-ef3a4451c10f Request finished "HTTP/2" "PUT" "https"://"localhost:7087""""/api/v1/Produto/Alterar3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 403 0 null 8.462ms
+2025-05-25 23:42:19.325 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 60
+2025-05-25 23:42:19.329 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 JWT Token validated for user: cesarsoft@gmail.com
+2025-05-25 23:42:19.329 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 23:42:19.329 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-05-25 23:42:19.513 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Executed DbCommand ("180"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-25 23:42:19.842 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Executed DbCommand ("198"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-25 23:42:19.845 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-25 23:42:19.846 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 516.5268ms
+2025-05-25 23:42:19.846 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-05-25 23:42:19.846 [Information] CorrelationId:34de3aa8-0104-4d68-b297-04b402dfbbf7 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 521.6114ms
+2025-05-25 23:42:47.694 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 23:42:47.702 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 JWT Token validated for user: admin@fiap.com.br
+2025-05-25 23:42:47.704 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Executing endpoint '"FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-25 23:42:47.704 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.ProdutoController" ("FCG.Api").
+2025-05-25 23:42:47.877 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Executed DbCommand ("170"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Excluido] = CAST(0 AS bit)
+ORDER BY [p].[Nome]"
+2025-05-25 23:42:47.878 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-25 23:42:47.878 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Executed action "FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)" in 173.8639ms
+2025-05-25 23:42:47.878 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Executed endpoint '"FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-25 23:42:47.879 [Information] CorrelationId:7cce3114-783f-4bdd-b8d0-0fee3f10d8f7 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 200 null "application/json; charset=utf-8" 184.9412ms
+2025-05-25 23:42:54.974 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Request starting "HTTP/2" "PUT" "https"://"localhost:7087""""/api/v1/Produto/Alterar3fa85f64-5717-4562-b3fc-2c963f66afa6""" - "application/json" 247
+2025-05-25 23:42:54.975 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 JWT Token validated for user: admin@fiap.com.br
+2025-05-25 23:42:54.977 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Executing endpoint '"FCG.Api.Controllers.v1.ProdutoController.Atualizar (FCG.Api)"'
+2025-05-25 23:42:54.981 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Route matched with "{action = \"Atualizar\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Atualizar(System.Guid, FCG.Api.Dto.ProdutoDto)" on controller "FCG.Api.Controllers.v1.ProdutoController" ("FCG.Api").
+2025-05-25 23:42:55.339 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Executed DbCommand ("178"ms) [Parameters=["@p8='?' (DbType = Guid), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Produto] SET [Categoria] = @p0, [DataAtualizacao] = @p1, [DataCriacao] = @p2, [DataLancamento] = @p3, [Descricao] = @p4, [Excluido] = @p5, [Nome] = @p6, [Preco] = @p7
+OUTPUT 1
+WHERE [Id] = @p8;"
+2025-05-25 23:42:55.362 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Executing StatusCodeResult, setting HTTP status code 204
+2025-05-25 23:42:55.362 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Executed action "FCG.Api.Controllers.v1.ProdutoController.Atualizar (FCG.Api)" in 381.6141ms
+2025-05-25 23:42:55.363 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Executed endpoint '"FCG.Api.Controllers.v1.ProdutoController.Atualizar (FCG.Api)"'
+2025-05-25 23:42:55.363 [Information] CorrelationId:ce295712-3746-4620-a57a-b54c39025e80 Request finished "HTTP/2" "PUT" "https"://"localhost:7087""""/api/v1/Produto/Alterar3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 204 null null 388.3598ms
+2025-05-25 23:43:05.559 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - null null
+2025-05-25 23:43:05.560 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 JWT Token validated for user: admin@fiap.com.br
+2025-05-25 23:43:05.560 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Executing endpoint '"FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-25 23:43:05.560 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.ProdutoController" ("FCG.Api").
+2025-05-25 23:43:05.732 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Executed DbCommand ("170"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Excluido] = CAST(0 AS bit)
+ORDER BY [p].[Nome]"
+2025-05-25 23:43:05.732 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-25 23:43:05.732 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Executed action "FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)" in 172.1951ms
+2025-05-25 23:43:05.733 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Executed endpoint '"FCG.Api.Controllers.v1.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-25 23:43:05.733 [Information] CorrelationId:682aac23-22d8-411b-9f5b-8974cebb29f3 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Produto/ObterTodos""" - 200 null "application/json; charset=utf-8" 173.8477ms

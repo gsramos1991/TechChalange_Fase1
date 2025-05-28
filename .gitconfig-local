@@ -1,0 +1,6 @@
+[credential]
+    helper =
+    helper = store
+[user]
+    name = CesarSoft
+    email = cesarsoft@gmail.com

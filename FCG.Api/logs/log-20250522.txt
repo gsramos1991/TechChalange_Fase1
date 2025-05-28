@@ -1,0 +1,727 @@
+2025-05-22 08:16:02.619 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 08:16:02.895 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 08:16:13.817 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 08:16:13.975 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 08:25:08.624 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 08:25:08.775 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 09:03:30.611 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 09:03:30.740 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 09:03:47.056 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 09:03:47.194 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 09:03:59.203 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 09:03:59.337 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 09:16:15.907 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 09:16:16.036 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 09:16:23.219 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 09:16:23.345 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\GitFiap\Fase01\FCG\FCG.Api\Program.cs:line 95
+2025-05-22 10:45:41.446 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 10:45:42.379 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-22 10:45:42.555 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-22 10:45:42.987 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-22 10:45:42.988 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-22 10:45:43.044 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-22 10:45:43.044 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-22 10:45:43.045 [Information] CorrelationId: Content root path: "C:\GitFiap\Fase01\FCG\FCG.Api"
+2025-05-22 10:45:47.580 [Information] CorrelationId:c339642a-b329-4410-a623-d2f0e8f3cfdf Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-22 10:45:47.987 [Information] CorrelationId:c339642a-b329-4410-a623-d2f0e8f3cfdf Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 414.01ms
+2025-05-22 10:45:48.083 [Information] CorrelationId:f197947b-3563-463b-b666-d7cd0c24340a Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-22 10:45:48.112 [Information] CorrelationId:16406552-b83a-4e17-9d85-e2e8c778d57c Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-22 10:45:48.115 [Information] CorrelationId:f197947b-3563-463b-b666-d7cd0c24340a Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 31.8276ms
+2025-05-22 10:45:48.361 [Information] CorrelationId:16406552-b83a-4e17-9d85-e2e8c778d57c Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 249.2037ms
+2025-05-22 10:45:48.428 [Information] CorrelationId:0dbd20ac-f2f6-45ca-87ad-6851065a34c0 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-22 10:45:48.466 [Information] CorrelationId:0dbd20ac-f2f6-45ca-87ad-6851065a34c0 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 38.5119ms
+2025-05-22 10:46:10.133 [Information] CorrelationId:ae07f94d-3ce8-4603-95aa-18523cb43412 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 10:46:10.220 [Information] CorrelationId:ae07f94d-3ce8-4603-95aa-18523cb43412 Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)"
+2025-05-22 10:46:10.224 [Information] CorrelationId:ae07f94d-3ce8-4603-95aa-18523cb43412 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 10:46:10.225 [Information] CorrelationId:ae07f94d-3ce8-4603-95aa-18523cb43412 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto""" - 401 0 null 91.5304ms
+2025-05-22 10:59:20.467 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 10:59:21.545 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-22 10:59:21.672 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-22 10:59:22.241 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-22 10:59:22.241 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-22 10:59:22.321 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-22 10:59:22.322 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-22 10:59:22.322 [Information] CorrelationId: Content root path: "C:\GitFiap\Fase01\FCG\FCG.Api"
+2025-05-22 10:59:23.456 [Information] CorrelationId:f8eaeceb-d1a7-4f44-bf6f-5166574c09e3 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-22 10:59:23.856 [Information] CorrelationId:f8eaeceb-d1a7-4f44-bf6f-5166574c09e3 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 409.087ms
+2025-05-22 10:59:23.895 [Information] CorrelationId:74ca4636-0f70-4ecc-a7c8-821a9e977bf4 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-22 10:59:23.895 [Information] CorrelationId:a7fd4bb2-0394-45c4-b2a5-405f1c0fb399 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-22 10:59:23.905 [Information] CorrelationId:a7fd4bb2-0394-45c4-b2a5-405f1c0fb399 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 9.4396ms
+2025-05-22 10:59:23.969 [Information] CorrelationId:74ca4636-0f70-4ecc-a7c8-821a9e977bf4 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 73.6229ms
+2025-05-22 10:59:24.076 [Information] CorrelationId:4d85d23b-eaf6-481f-910c-eb39c4286eff Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-22 10:59:24.130 [Information] CorrelationId:4d85d23b-eaf6-481f-910c-eb39c4286eff Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 54.4583ms
+2025-05-22 10:59:30.623 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Request starting "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Account/login""" - "application/json" 66
+2025-05-22 10:59:30.739 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Executing endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 10:59:30.777 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Controllers.LoginModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 10:59:31.677 [Warning] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-22 10:59:33.517 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Executed DbCommand ("217"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-22 10:59:33.980 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Executed DbCommand ("155"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-22 10:59:34.031 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 10:59:34.054 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Executed action "FCG.Api.Controllers.AccountController.Login (FCG.Api)" in 3270.7123ms
+2025-05-22 10:59:34.054 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Executed endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 10:59:34.062 [Information] CorrelationId:0b6c80ae-67dd-4b6f-9239-fee71d7a5c26 Request finished "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Account/login""" - 200 null "application/json; charset=utf-8" 3438.8759ms
+2025-05-22 11:05:29.947 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 11:05:31.262 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-22 11:05:32.261 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-22 11:05:32.598 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-22 11:05:32.598 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-22 11:05:32.712 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-22 11:05:32.713 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-22 11:05:32.713 [Information] CorrelationId: Content root path: "C:\GitFiap\Fase01\FCG\FCG.Api"
+2025-05-22 11:05:33.254 [Information] CorrelationId:502b3d2c-f2dd-4093-89e9-cf5c297c0b28 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-22 11:05:33.507 [Information] CorrelationId:502b3d2c-f2dd-4093-89e9-cf5c297c0b28 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 257.902ms
+2025-05-22 11:05:33.526 [Information] CorrelationId:d459141f-cef3-4c10-be84-91441e4da01a Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-22 11:05:33.526 [Information] CorrelationId:02e0466a-7678-4f81-8600-e5e746d50a67 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-22 11:05:33.534 [Information] CorrelationId:d459141f-cef3-4c10-be84-91441e4da01a Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 8.2169ms
+2025-05-22 11:05:33.587 [Information] CorrelationId:02e0466a-7678-4f81-8600-e5e746d50a67 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 60.9854ms
+2025-05-22 11:05:33.655 [Information] CorrelationId:ef8923f4-59b4-4cb3-9449-4166ae5e3b27 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-22 11:05:33.724 [Information] CorrelationId:ef8923f4-59b4-4cb3-9449-4166ae5e3b27 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 69.7472ms
+2025-05-22 11:05:34.234 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Request starting "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Account/login""" - "application/json" 66
+2025-05-22 11:05:34.348 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Executing endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 11:05:34.384 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Controllers.LoginModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 11:05:35.501 [Warning] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-22 11:05:37.593 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Executed DbCommand ("201"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-22 11:05:38.114 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Executed DbCommand ("154"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-22 11:05:38.165 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 11:05:38.191 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Executed action "FCG.Api.Controllers.AccountController.Login (FCG.Api)" in 3799.1961ms
+2025-05-22 11:05:38.191 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Executed endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 11:05:38.248 [Information] CorrelationId:975bb891-b6db-49e7-92da-a3e20eb0702b Request finished "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Account/login""" - 200 null "application/json; charset=utf-8" 4014.0783ms
+2025-05-22 11:05:41.484 [Information] CorrelationId:4b3ca31f-5082-47c6-9969-2c570654f544 Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Protegido""" - null null
+2025-05-22 11:05:41.569 [Information] CorrelationId:4b3ca31f-5082-47c6-9969-2c570654f544 Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '5/14/2025 4:15:19 PM', Current time (UTC): '5/22/2025 2:05:41 PM'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-05-22 11:05:41.626 [Information] CorrelationId:4b3ca31f-5082-47c6-9969-2c570654f544 "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '5/14/2025 4:15:19 PM', Current time (UTC): '5/22/2025 2:05:41 PM'."
+2025-05-22 11:05:41.634 [Information] CorrelationId:4b3ca31f-5082-47c6-9969-2c570654f544 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:05:41.644 [Information] CorrelationId:4b3ca31f-5082-47c6-9969-2c570654f544 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:05:41.645 [Information] CorrelationId:4b3ca31f-5082-47c6-9969-2c570654f544 Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Protegido""" - 401 0 null 161.2334ms
+2025-05-22 11:06:02.585 [Information] CorrelationId:2a193b14-d75b-4361-a421-e950d868df1d Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Protegido""" - null null
+2025-05-22 11:06:02.612 [Information] CorrelationId:2a193b14-d75b-4361-a421-e950d868df1d Executing endpoint '"FCG.Api.Controllers.ProtegidoController.Get (FCG.Api)"'
+2025-05-22 11:06:02.614 [Information] CorrelationId:2a193b14-d75b-4361-a421-e950d868df1d Route matched with "{action = \"Get\", controller = \"Protegido\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "FCG.Api.Controllers.ProtegidoController" ("FCG.Api").
+2025-05-22 11:06:02.616 [Information] CorrelationId:2a193b14-d75b-4361-a421-e950d868df1d Executing "OkObjectResult", writing value of type '"<>f__AnonymousType4`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 11:06:02.618 [Information] CorrelationId:2a193b14-d75b-4361-a421-e950d868df1d Executed action "FCG.Api.Controllers.ProtegidoController.Get (FCG.Api)" in 3.0987ms
+2025-05-22 11:06:02.618 [Information] CorrelationId:2a193b14-d75b-4361-a421-e950d868df1d Executed endpoint '"FCG.Api.Controllers.ProtegidoController.Get (FCG.Api)"'
+2025-05-22 11:06:02.618 [Information] CorrelationId:2a193b14-d75b-4361-a421-e950d868df1d Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Protegido""" - 200 null "application/json; charset=utf-8" 32.8074ms
+2025-05-22 11:12:30.946 [Information] CorrelationId:ecd75700-054b-4c66-9eba-57f22d63f250 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:12:30.956 [Information] CorrelationId:ecd75700-054b-4c66-9eba-57f22d63f250 Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)"
+2025-05-22 11:12:30.956 [Information] CorrelationId:ecd75700-054b-4c66-9eba-57f22d63f250 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:12:30.956 [Information] CorrelationId:ecd75700-054b-4c66-9eba-57f22d63f250 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto""" - 401 0 null 14.7271ms
+2025-05-22 11:14:47.446 [Information] CorrelationId:74379e0a-38ac-456d-924e-bfbe0651de0b Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:14:47.446 [Information] CorrelationId:74379e0a-38ac-456d-924e-bfbe0651de0b Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)"
+2025-05-22 11:14:47.446 [Information] CorrelationId:74379e0a-38ac-456d-924e-bfbe0651de0b AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:14:47.449 [Information] CorrelationId:74379e0a-38ac-456d-924e-bfbe0651de0b Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 401 0 null 3.1243ms
+2025-05-22 11:15:06.495 [Information] CorrelationId:7cbdc0cf-28c1-49ac-be22-de7b4e17c91f Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:15:06.497 [Information] CorrelationId:7cbdc0cf-28c1-49ac-be22-de7b4e17c91f Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)"
+2025-05-22 11:15:06.499 [Information] CorrelationId:7cbdc0cf-28c1-49ac-be22-de7b4e17c91f AuthenticationScheme: "Bearer" was forbidden.
+2025-05-22 11:15:06.499 [Information] CorrelationId:7cbdc0cf-28c1-49ac-be22-de7b4e17c91f Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 403 0 null 3.9843ms
+2025-05-22 11:15:33.424 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 11:15:34.890 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-22 11:15:34.998 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-22 11:15:35.291 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-22 11:15:35.292 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-22 11:15:35.355 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-22 11:15:35.355 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-22 11:15:35.355 [Information] CorrelationId: Content root path: "C:\GitFiap\Fase01\FCG\FCG.Api"
+2025-05-22 11:15:36.439 [Information] CorrelationId:9b9f20dd-bc30-4a1f-87d3-9681d8bde58b Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-22 11:15:36.804 [Information] CorrelationId:2de860cc-276a-4101-947a-4f87aadf48ea Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-22 11:15:36.804 [Information] CorrelationId:27d6c8f0-3ae2-478d-a5f1-60348a4171e1 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-22 11:15:36.819 [Information] CorrelationId:9b9f20dd-bc30-4a1f-87d3-9681d8bde58b Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 382.6938ms
+2025-05-22 11:15:36.820 [Information] CorrelationId:27d6c8f0-3ae2-478d-a5f1-60348a4171e1 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 15.7887ms
+2025-05-22 11:15:36.903 [Information] CorrelationId:2de860cc-276a-4101-947a-4f87aadf48ea Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 99.2453ms
+2025-05-22 11:15:36.970 [Information] CorrelationId:3ed0f1f3-5e3a-437a-9179-d3db7b044f9d Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-22 11:15:37.156 [Information] CorrelationId:3ed0f1f3-5e3a-437a-9179-d3db7b044f9d Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 186.5141ms
+2025-05-22 11:15:49.724 [Information] CorrelationId:9925dd28-a478-4ab1-a7fb-5f7b6652a25d Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:15:49.893 [Information] CorrelationId:9925dd28-a478-4ab1-a7fb-5f7b6652a25d Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:15:49.912 [Information] CorrelationId:9925dd28-a478-4ab1-a7fb-5f7b6652a25d Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:15:49.919 [Information] CorrelationId:9925dd28-a478-4ab1-a7fb-5f7b6652a25d Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 3.2818ms
+2025-05-22 11:15:49.921 [Information] CorrelationId:9925dd28-a478-4ab1-a7fb-5f7b6652a25d Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:15:50.011 [Error] CorrelationId:9925dd28-a478-4ab1-a7fb-5f7b6652a25d An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FCG.Business.Services.Interfaces.IProdutoService' while attempting to activate 'FCG.Api.Controllers.ProdutoController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at FCG.Api.Infra.Middleware.CorrelationIdMiddleware.Invoke(HttpContext context, ICorrelationIdGenerator correlationIdGenerator) in C:\GitFiap\Fase01\FCG\FCG.Api\Infra\Middleware\CorrelationIdMiddleware.cs:line 18
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-22 11:15:50.068 [Information] CorrelationId:9925dd28-a478-4ab1-a7fb-5f7b6652a25d Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 500 null "text/plain; charset=utf-8" 344.0341ms
+2025-05-22 11:17:48.701 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 11:17:49.804 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-22 11:17:49.844 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-22 11:17:50.085 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-22 11:17:50.085 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-22 11:17:50.170 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-22 11:17:50.170 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-22 11:17:50.171 [Information] CorrelationId: Content root path: "C:\GitFiap\Fase01\FCG\FCG.Api"
+2025-05-22 11:17:51.095 [Information] CorrelationId:a3960c88-9729-4b58-ba18-2009c901d318 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-22 11:17:51.375 [Information] CorrelationId:a3960c88-9729-4b58-ba18-2009c901d318 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 286.8476ms
+2025-05-22 11:17:51.379 [Information] CorrelationId:779f78e8-3d69-4c64-acb3-9142b0f51c85 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-22 11:17:51.379 [Information] CorrelationId:de1a7306-2f0d-4a54-8a28-bd8a92a395c2 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-22 11:17:51.390 [Information] CorrelationId:779f78e8-3d69-4c64-acb3-9142b0f51c85 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 11.6755ms
+2025-05-22 11:17:51.430 [Information] CorrelationId:de1a7306-2f0d-4a54-8a28-bd8a92a395c2 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 50.7687ms
+2025-05-22 11:17:51.527 [Information] CorrelationId:5cf4089e-c6b8-41a3-a615-6f3b8ca366be Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-22 11:17:51.565 [Information] CorrelationId:5cf4089e-c6b8-41a3-a615-6f3b8ca366be Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 37.8868ms
+2025-05-22 11:17:55.387 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:17:55.592 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:17:55.611 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:17:56.464 [Warning] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-22 11:17:58.135 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Executed DbCommand ("193"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 11:17:58.171 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 11:17:58.201 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 2585.0099ms
+2025-05-22 11:17:58.201 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:17:58.210 [Information] CorrelationId:17a8e17f-693f-46bf-b01a-25d1ec931c22 Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 200 null "application/json; charset=utf-8" 2823.3836ms
+2025-05-22 11:18:32.461 [Information] CorrelationId:b7e8e5b6-fa30-4c2f-babc-472fc444db22 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/Produto""" - "application/json" 182
+2025-05-22 11:18:32.466 [Information] CorrelationId:b7e8e5b6-fa30-4c2f-babc-472fc444db22 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:18:32.473 [Information] CorrelationId:b7e8e5b6-fa30-4c2f-babc-472fc444db22 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:18:32.473 [Information] CorrelationId:b7e8e5b6-fa30-4c2f-babc-472fc444db22 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/Produto""" - 401 0 null 16.2613ms
+2025-05-22 11:19:28.182 [Information] CorrelationId:522c9054-acb4-44c2-85df-cbe4cbde6760 Request starting "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Produto""" - "application/json" 211
+2025-05-22 11:19:28.185 [Information] CorrelationId:522c9054-acb4-44c2-85df-cbe4cbde6760 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:19:28.186 [Information] CorrelationId:522c9054-acb4-44c2-85df-cbe4cbde6760 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:19:28.186 [Information] CorrelationId:522c9054-acb4-44c2-85df-cbe4cbde6760 Request finished "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Produto""" - 401 0 null 3.9529ms
+2025-05-22 11:19:31.749 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:19:31.754 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:19:31.754 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:19:31.938 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Executed DbCommand ("156"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 11:19:31.938 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 11:19:31.939 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 184.6692ms
+2025-05-22 11:19:31.939 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:19:31.939 [Information] CorrelationId:1e14ff69-fb6d-46c2-88ec-45554eb31e4a Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 200 null "application/json; charset=utf-8" 190.102ms
+2025-05-22 11:19:56.001 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Request starting "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Produto""" - "application/json" 211
+2025-05-22 11:19:56.006 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Executing endpoint '"FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)"'
+2025-05-22 11:19:56.016 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Route matched with "{action = \"Adicionar\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.ProdutoDto]] Adicionar(FCG.Api.Dto.ProdutoDto)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:19:56.595 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Executed DbCommand ("182"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Produto] ([Id], [Categoria], [DataAtualizacao], [DataCriacao], [DataLancamento], [Descricao], [Excluido], [Nome], [Preco])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);"
+2025-05-22 11:19:56.606 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Executing "CreatedAtActionResult", writing value of type '"FCG.Api.Dto.ProdutoDto"'.
+2025-05-22 11:19:56.627 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Executed action "FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)" in 611.212ms
+2025-05-22 11:19:56.627 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Executed endpoint '"FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)"'
+2025-05-22 11:19:56.628 [Information] CorrelationId:9903bd6d-f8dc-4440-bea1-0040faec873c Request finished "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Produto""" - 201 null "application/json; charset=utf-8" 626.5571ms
+2025-05-22 11:20:01.191 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:20:01.192 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:20:01.192 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:20:01.349 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Executed DbCommand ("156"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 11:20:01.359 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 11:20:01.359 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 167.3926ms
+2025-05-22 11:20:01.360 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:20:01.360 [Information] CorrelationId:cab84e74-9748-448a-ac6a-5eb18fc5d13c Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 200 null "application/json; charset=utf-8" 168.5434ms
+2025-05-22 11:21:30.390 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Request starting "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Produto""" - "application/json" 211
+2025-05-22 11:21:30.390 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Executing endpoint '"FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)"'
+2025-05-22 11:21:30.390 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Route matched with "{action = \"Adicionar\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.ProdutoDto]] Adicionar(FCG.Api.Dto.ProdutoDto)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:21:30.551 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Executed DbCommand ("156"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Produto] ([Id], [Categoria], [DataAtualizacao], [DataCriacao], [DataLancamento], [Descricao], [Excluido], [Nome], [Preco])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);"
+2025-05-22 11:21:30.551 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Executing "CreatedAtActionResult", writing value of type '"FCG.Api.Dto.ProdutoDto"'.
+2025-05-22 11:21:30.555 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Executed action "FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)" in 164.3357ms
+2025-05-22 11:21:30.555 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Executed endpoint '"FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)"'
+2025-05-22 11:21:30.556 [Information] CorrelationId:18b857b8-7ff7-4b04-b764-b9fe1b740f62 Request finished "HTTP/1.1" "POST" "https"://"localhost:7087""""/api/Produto""" - 201 null "application/json; charset=utf-8" 167.8014ms
+2025-05-22 11:21:33.967 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:21:33.973 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:21:33.973 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:21:34.139 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Executed DbCommand ("160"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 11:21:34.140 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 11:21:34.140 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 166.4551ms
+2025-05-22 11:21:34.140 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:21:34.140 [Information] CorrelationId:086d518e-b6d9-46d5-aec5-62deacc73465 Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 200 null "application/json; charset=utf-8" 173.9437ms
+2025-05-22 11:22:26.229 [Information] CorrelationId:fbff2b94-f993-4a1b-a60f-82ed559fea93 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto/a1038ed2-44d2-4d19-b823-3fb6e32d66a3""" - null null
+2025-05-22 11:22:26.229 [Information] CorrelationId:fbff2b94-f993-4a1b-a60f-82ed559fea93 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:22:26.229 [Information] CorrelationId:fbff2b94-f993-4a1b-a60f-82ed559fea93 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:22:26.230 [Information] CorrelationId:fbff2b94-f993-4a1b-a60f-82ed559fea93 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/Produto/a1038ed2-44d2-4d19-b823-3fb6e32d66a3""" - 401 0 null 3.1522ms
+2025-05-22 11:22:46.688 [Information] CorrelationId:aff8d30d-7b3f-424a-a2f0-c8da09b0d2f6 Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/a1038ed2-44d2-4d19-b823-3fb6e32d66a3""" - null null
+2025-05-22 11:22:46.689 [Information] CorrelationId:aff8d30d-7b3f-424a-a2f0-c8da09b0d2f6 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:22:46.689 [Information] CorrelationId:aff8d30d-7b3f-424a-a2f0-c8da09b0d2f6 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:22:46.690 [Information] CorrelationId:aff8d30d-7b3f-424a-a2f0-c8da09b0d2f6 Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/a1038ed2-44d2-4d19-b823-3fb6e32d66a3""" - 401 0 null 4.0289ms
+2025-05-22 11:22:56.394 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/a1038ed2-44d2-4d19-b823-3fb6e32d66a3""" - null null
+2025-05-22 11:22:56.394 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:22:56.400 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Route matched with "{action = \"GetPorId\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.ProdutoDto]] GetPorId(System.Guid)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:22:56.598 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Executed DbCommand ("157"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Id] = @__id_0"
+2025-05-22 11:22:56.600 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Executing "OkObjectResult", writing value of type '"FCG.Api.Dto.ProdutoDto"'.
+2025-05-22 11:22:56.600 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Executed action "FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)" in 200.2288ms
+2025-05-22 11:22:56.600 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:22:56.600 [Information] CorrelationId:b2315345-98fc-424e-a4d1-5c8a64313e6c Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/a1038ed2-44d2-4d19-b823-3fb6e32d66a3""" - 200 null "application/json; charset=utf-8" 206.286ms
+2025-05-22 11:23:18.303 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-05-22 11:23:18.303 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:23:18.303 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Route matched with "{action = \"GetPorId\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.ProdutoDto]] GetPorId(System.Guid)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:23:18.460 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Executed DbCommand ("155"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Id] = @__id_0"
+2025-05-22 11:23:18.461 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Executing "OkObjectResult", writing value of type '"FCG.Api.Dto.ProdutoDto"'.
+2025-05-22 11:23:18.461 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Executed action "FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)" in 157.8293ms
+2025-05-22 11:23:18.461 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:23:18.461 [Information] CorrelationId:ec229ed3-9292-4afe-ac73-f03e3d4410e2 Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 200 null "application/json; charset=utf-8" 158.66ms
+2025-05-22 11:24:00.581 [Information] CorrelationId:0c5f6a58-8b0c-48df-a2b4-efa7f8351082 Request starting "HTTP/2" "PUT" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - "application/json" 182
+2025-05-22 11:24:00.581 [Information] CorrelationId:0c5f6a58-8b0c-48df-a2b4-efa7f8351082 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:24:00.582 [Information] CorrelationId:0c5f6a58-8b0c-48df-a2b4-efa7f8351082 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:24:00.582 [Information] CorrelationId:0c5f6a58-8b0c-48df-a2b4-efa7f8351082 Request finished "HTTP/2" "PUT" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 401 0 null 0.8278ms
+2025-05-22 11:25:58.865 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Request starting "HTTP/1.1" "PUT" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - "application/json" 246
+2025-05-22 11:25:58.865 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Executing endpoint '"FCG.Api.Controllers.ProdutoController.Atualizar (FCG.Api)"'
+2025-05-22 11:25:58.869 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Route matched with "{action = \"Atualizar\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Atualizar(System.Guid, FCG.Api.Dto.ProdutoDto)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:25:59.042 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Executed DbCommand ("164"ms) [Parameters=["@p8='?' (DbType = Guid), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Produto] SET [Categoria] = @p0, [DataAtualizacao] = @p1, [DataCriacao] = @p2, [DataLancamento] = @p3, [Descricao] = @p4, [Excluido] = @p5, [Nome] = @p6, [Preco] = @p7
+OUTPUT 1
+WHERE [Id] = @p8;"
+2025-05-22 11:25:59.048 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Executing StatusCodeResult, setting HTTP status code 204
+2025-05-22 11:25:59.048 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Executed action "FCG.Api.Controllers.ProdutoController.Atualizar (FCG.Api)" in 179.7523ms
+2025-05-22 11:25:59.048 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Executed endpoint '"FCG.Api.Controllers.ProdutoController.Atualizar (FCG.Api)"'
+2025-05-22 11:25:59.049 [Information] CorrelationId:bb9dd7b3-3bc6-4d18-b720-7fb44aef7718 Request finished "HTTP/1.1" "PUT" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 204 null null 183.7973ms
+2025-05-22 11:26:10.356 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-05-22 11:26:10.358 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:26:10.359 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Route matched with "{action = \"GetPorId\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.ProdutoDto]] GetPorId(System.Guid)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:26:10.516 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Executed DbCommand ("157"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Id] = @__id_0"
+2025-05-22 11:26:10.517 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Executing "OkObjectResult", writing value of type '"FCG.Api.Dto.ProdutoDto"'.
+2025-05-22 11:26:10.517 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Executed action "FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)" in 158.5148ms
+2025-05-22 11:26:10.517 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:26:10.517 [Information] CorrelationId:2f1da8c4-5d20-4818-93f8-f2490c8134fe Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 200 null "application/json; charset=utf-8" 161.9051ms
+2025-05-22 11:26:44.098 [Information] CorrelationId:542c4867-2a6e-48cb-a4e8-1d2aab9e25bf Request starting "HTTP/2" "DELETE" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-05-22 11:26:44.099 [Information] CorrelationId:542c4867-2a6e-48cb-a4e8-1d2aab9e25bf Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:26:44.099 [Information] CorrelationId:542c4867-2a6e-48cb-a4e8-1d2aab9e25bf AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:26:44.099 [Information] CorrelationId:542c4867-2a6e-48cb-a4e8-1d2aab9e25bf Request finished "HTTP/2" "DELETE" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 401 0 null 3.7591ms
+2025-05-22 11:27:13.355 [Information] CorrelationId:ac8a695b-b03c-45b4-b78b-11f0dffccc23 Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-05-22 11:27:13.355 [Information] CorrelationId:ac8a695b-b03c-45b4-b78b-11f0dffccc23 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 11:27:13.355 [Information] CorrelationId:ac8a695b-b03c-45b4-b78b-11f0dffccc23 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 11:27:13.355 [Information] CorrelationId:ac8a695b-b03c-45b4-b78b-11f0dffccc23 Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 401 0 null 0.4934ms
+2025-05-22 11:27:32.639 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-05-22 11:27:32.640 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Executing endpoint '"FCG.Api.Controllers.ProdutoController.Remover (FCG.Api)"'
+2025-05-22 11:27:32.646 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Route matched with "{action = \"Remover\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Remover(System.Guid)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:27:32.872 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Executed DbCommand ("158"ms) [Parameters=["@__get_Item_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Id] = @__get_Item_0"
+2025-05-22 11:27:33.040 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Executed DbCommand ("158"ms) [Parameters=["@p0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Produto]
+OUTPUT 1
+WHERE [Id] = @p0;"
+2025-05-22 11:27:33.045 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Executing StatusCodeResult, setting HTTP status code 204
+2025-05-22 11:27:33.045 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Executed action "FCG.Api.Controllers.ProdutoController.Remover (FCG.Api)" in 399.0809ms
+2025-05-22 11:27:33.045 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Executed endpoint '"FCG.Api.Controllers.ProdutoController.Remover (FCG.Api)"'
+2025-05-22 11:27:33.046 [Information] CorrelationId:f2b34beb-d1e5-498c-9a33-20f463b4338d Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 204 null null 406.3373ms
+2025-05-22 11:27:42.481 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - null null
+2025-05-22 11:27:42.482 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:27:42.482 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:27:42.644 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Executed DbCommand ("161"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 11:27:42.644 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 11:27:42.644 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 162.387ms
+2025-05-22 11:27:42.644 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 11:27:42.645 [Information] CorrelationId:cf16df8d-d249-4aa7-83b0-c5894494fda6 Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto""" - 200 null "application/json; charset=utf-8" 163.2755ms
+2025-05-22 11:27:46.377 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Request starting "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-05-22 11:27:46.378 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:27:46.378 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Route matched with "{action = \"GetPorId\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.ProdutoDto]] GetPorId(System.Guid)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 11:27:46.534 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Executed DbCommand ("155"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+WHERE [p].[Id] = @__id_0"
+2025-05-22 11:27:46.534 [Warning] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Produto com ID 3fa85f64-5717-4562-b3fc-2c963f66afa6 não encontrado.
+2025-05-22 11:27:46.538 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-05-22 11:27:46.553 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Executed action "FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)" in 175.5307ms
+2025-05-22 11:27:46.553 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetPorId (FCG.Api)"'
+2025-05-22 11:27:46.554 [Information] CorrelationId:c89707f9-b225-4305-b50f-8a0859d31c84 Request finished "HTTP/1.1" "GET" "https"://"localhost:7087""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 404 null "application/problem+json; charset=utf-8" 176.5661ms
+2025-05-22 20:55:37.272 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 20:55:39.118 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-22 20:55:39.232 [Information] CorrelationId: User profile is available. Using '"C:\Users\Gabriel\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-22 20:55:39.258 [Information] CorrelationId: Creating key {bf0c3314-1d44-4c57-922d-f308c33457ae} with creation date 2025-05-22 23:55:39Z, activation date 2025-05-22 23:55:39Z, and expiration date 2025-08-20 23:55:39Z.
+2025-05-22 20:55:39.314 [Information] CorrelationId: Writing data to file '"C:\Users\Gabriel\AppData\Local\ASP.NET\DataProtection-Keys\key-bf0c3314-1d44-4c57-922d-f308c33457ae.xml"'.
+2025-05-22 20:55:39.932 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-22 20:55:39.933 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-22 20:55:40.226 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-22 20:55:40.227 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-22 20:55:40.227 [Information] CorrelationId: Content root path: "C:\Users\Gabriel\OneDrive\Arquivos antigos\Documents\Projetos\TechChalange\FCG.Api"
+2025-05-22 20:56:37.191 [Information] CorrelationId: Iniciando WebApi
+2025-05-22 20:56:38.768 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-22 20:56:38.848 [Information] CorrelationId: User profile is available. Using '"C:\Users\Gabriel\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-22 20:56:39.267 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-22 20:56:39.423 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-22 20:56:39.424 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-22 20:56:39.424 [Information] CorrelationId: Content root path: "C:\Users\Gabriel\OneDrive\Arquivos antigos\Documents\Projetos\TechChalange\FCG.Api"
+2025-05-22 20:56:39.915 [Information] CorrelationId:78c2297f-a381-4243-b6a0-71cf06f94421 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger""" - null null
+2025-05-22 20:56:40.260 [Information] CorrelationId:78c2297f-a381-4243-b6a0-71cf06f94421 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger""" - 301 0 null 363.7576ms
+2025-05-22 20:56:40.264 [Information] CorrelationId:7758c755-69b3-4009-be67-a055fa0eda41 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/index.html""" - null null
+2025-05-22 20:56:40.362 [Information] CorrelationId:7758c755-69b3-4009-be67-a055fa0eda41 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 97.9713ms
+2025-05-22 20:56:40.374 [Information] CorrelationId:c8ee0def-73e9-43fa-a1e3-f52c12cd8a1f Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/swagger-ui.css""" - null null
+2025-05-22 20:56:40.386 [Information] CorrelationId:b1e20385-51ec-4fb5-80fd-2094b590271b Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/swagger-ui-bundle.js""" - null null
+2025-05-22 20:56:40.386 [Information] CorrelationId:8e3d2758-c9d6-481e-9f65-e141d45fc371 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2025-05-22 20:56:40.453 [Information] CorrelationId:c9474da9-440f-4354-95dd-9c7a6de4666f Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/_vs/browserLink""" - null null
+2025-05-22 20:56:40.505 [Information] CorrelationId:ad4b9b1f-5d91-4b22-a177-02cba92866b9 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-22 20:56:40.528 [Information] CorrelationId:8e3d2758-c9d6-481e-9f65-e141d45fc371 Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2025-05-22 20:56:40.528 [Information] CorrelationId:c8ee0def-73e9-43fa-a1e3-f52c12cd8a1f Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2025-05-22 20:56:40.529 [Information] CorrelationId:ad4b9b1f-5d91-4b22-a177-02cba92866b9 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/_framework/aspnetcore-browser-refresh.js""" - 200 16499 "application/javascript; charset=utf-8" 24.0249ms
+2025-05-22 20:56:40.533 [Information] CorrelationId:c8ee0def-73e9-43fa-a1e3-f52c12cd8a1f Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 159.378ms
+2025-05-22 20:56:40.533 [Information] CorrelationId:8e3d2758-c9d6-481e-9f65-e141d45fc371 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 147.0251ms
+2025-05-22 20:56:40.553 [Information] CorrelationId:b1e20385-51ec-4fb5-80fd-2094b590271b Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2025-05-22 20:56:40.554 [Information] CorrelationId:b1e20385-51ec-4fb5-80fd-2094b590271b Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 167.6886ms
+2025-05-22 20:56:40.671 [Information] CorrelationId:c9474da9-440f-4354-95dd-9c7a6de4666f Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 218.5337ms
+2025-05-22 20:56:40.881 [Information] CorrelationId:a51bcf85-0115-4ed7-9110-dbd7fdbfabb7 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/v1/swagger.json""" - null null
+2025-05-22 20:56:40.938 [Information] CorrelationId:a51bcf85-0115-4ed7-9110-dbd7fdbfabb7 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 57.9112ms
+2025-05-22 20:56:40.985 [Information] CorrelationId:1b9e9f30-6a11-48e3-8732-abb051ea0aaf Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/favicon-32x32.png""" - null null
+2025-05-22 20:56:40.986 [Information] CorrelationId:1b9e9f30-6a11-48e3-8732-abb051ea0aaf Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2025-05-22 20:56:40.987 [Information] CorrelationId:1b9e9f30-6a11-48e3-8732-abb051ea0aaf Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 1.3946ms
+2025-05-22 20:56:48.008 [Information] CorrelationId:586e9c90-037a-4a6d-9dd4-1d6951d7c693 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - null null
+2025-05-22 20:56:48.018 [Warning] CorrelationId:586e9c90-037a-4a6d-9dd4-1d6951d7c693 Failed to determine the https port for redirect.
+2025-05-22 20:56:48.237 [Information] CorrelationId:586e9c90-037a-4a6d-9dd4-1d6951d7c693 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 20:56:48.242 [Information] CorrelationId:586e9c90-037a-4a6d-9dd4-1d6951d7c693 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 20:56:48.242 [Information] CorrelationId:586e9c90-037a-4a6d-9dd4-1d6951d7c693 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - 401 0 null 234.0066ms
+2025-05-22 20:57:26.944 [Information] CorrelationId:9b4e39bd-a909-4aca-a05a-a9b5a970368e Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/register""" - "application/json" 87
+2025-05-22 20:57:26.954 [Information] CorrelationId:9b4e39bd-a909-4aca-a05a-a9b5a970368e Executing endpoint '"FCG.Api.Controllers.AccountController.Register (FCG.Api)"'
+2025-05-22 20:57:26.999 [Information] CorrelationId:9b4e39bd-a909-4aca-a05a-a9b5a970368e Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(FCG.Api.Controllers.RegisterModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 20:57:27.817 [Information] CorrelationId:9b4e39bd-a909-4aca-a05a-a9b5a970368e Executing "BadRequestObjectResult", writing value of type '"System.Collections.Generic.List`1[[Microsoft.AspNetCore.Identity.IdentityError, Microsoft.Extensions.Identity.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]"'.
+2025-05-22 20:57:27.841 [Information] CorrelationId:9b4e39bd-a909-4aca-a05a-a9b5a970368e Executed action "FCG.Api.Controllers.AccountController.Register (FCG.Api)" in 833.6244ms
+2025-05-22 20:57:27.842 [Information] CorrelationId:9b4e39bd-a909-4aca-a05a-a9b5a970368e Executed endpoint '"FCG.Api.Controllers.AccountController.Register (FCG.Api)"'
+2025-05-22 20:57:27.847 [Information] CorrelationId:9b4e39bd-a909-4aca-a05a-a9b5a970368e Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/register""" - 400 null "application/json; charset=utf-8" 902.9292ms
+2025-05-22 20:57:37.595 [Information] CorrelationId:c58b1e1f-e079-40ac-88e8-f1df29ddb8fb Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/register""" - "application/json" 93
+2025-05-22 20:57:37.598 [Information] CorrelationId:c58b1e1f-e079-40ac-88e8-f1df29ddb8fb Executing endpoint '"FCG.Api.Controllers.AccountController.Register (FCG.Api)"'
+2025-05-22 20:57:37.599 [Information] CorrelationId:c58b1e1f-e079-40ac-88e8-f1df29ddb8fb Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(FCG.Api.Controllers.RegisterModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 20:57:37.627 [Information] CorrelationId:c58b1e1f-e079-40ac-88e8-f1df29ddb8fb Executing "BadRequestObjectResult", writing value of type '"System.Collections.Generic.List`1[[Microsoft.AspNetCore.Identity.IdentityError, Microsoft.Extensions.Identity.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]"'.
+2025-05-22 20:57:37.628 [Information] CorrelationId:c58b1e1f-e079-40ac-88e8-f1df29ddb8fb Executed action "FCG.Api.Controllers.AccountController.Register (FCG.Api)" in 29.0316ms
+2025-05-22 20:57:37.628 [Information] CorrelationId:c58b1e1f-e079-40ac-88e8-f1df29ddb8fb Executed endpoint '"FCG.Api.Controllers.AccountController.Register (FCG.Api)"'
+2025-05-22 20:57:37.629 [Information] CorrelationId:c58b1e1f-e079-40ac-88e8-f1df29ddb8fb Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/register""" - 400 null "application/json; charset=utf-8" 33.681ms
+2025-05-22 20:57:46.030 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/register""" - "application/json" 93
+2025-05-22 20:57:46.030 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Executing endpoint '"FCG.Api.Controllers.AccountController.Register (FCG.Api)"'
+2025-05-22 20:57:46.030 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Route matched with "{action = \"Register\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(FCG.Api.Controllers.RegisterModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 20:57:46.940 [Warning] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 No store type was specified for the decimal property '"Preco"' on entity type '"Produto"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-22 20:57:49.371 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Executed DbCommand ("256"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-22 20:57:49.797 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Executed DbCommand ("179"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 4000), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [Nome], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);"
+2025-05-22 20:57:49.844 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 20:57:49.849 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Executed action "FCG.Api.Controllers.AccountController.Register (FCG.Api)" in 3818.3992ms
+2025-05-22 20:57:49.850 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Executed endpoint '"FCG.Api.Controllers.AccountController.Register (FCG.Api)"'
+2025-05-22 20:57:49.858 [Information] CorrelationId:3281987a-a3fa-46bf-bfd9-245a83040b81 Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/register""" - 200 null "application/json; charset=utf-8" 3828.2518ms
+2025-05-22 20:58:24.241 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - "application/json" 65
+2025-05-22 20:58:24.245 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Executing endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 20:58:24.250 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Controllers.LoginModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 20:58:24.494 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Executed DbCommand ("172"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-22 20:58:24.873 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Executed DbCommand ("190"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-22 20:58:24.938 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 20:58:24.948 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Executed action "FCG.Api.Controllers.AccountController.Login (FCG.Api)" in 697.549ms
+2025-05-22 20:58:24.948 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Executed endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 20:58:24.949 [Information] CorrelationId:9457f1a0-5eb5-4980-abe9-766053849c9a Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - 200 null "application/json; charset=utf-8" 710.5204ms
+2025-05-22 20:58:40.721 [Information] CorrelationId:c50e947e-e8cc-4f9d-ad9c-cb3bdc404f43 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - null null
+2025-05-22 20:58:40.723 [Information] CorrelationId:c50e947e-e8cc-4f9d-ad9c-cb3bdc404f43 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 20:58:40.733 [Information] CorrelationId:c50e947e-e8cc-4f9d-ad9c-cb3bdc404f43 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 20:58:40.733 [Information] CorrelationId:c50e947e-e8cc-4f9d-ad9c-cb3bdc404f43 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - 401 0 null 11.8043ms
+2025-05-22 22:12:23.392 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - "application/json" 65
+2025-05-22 22:12:23.438 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Executing endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 22:12:23.456 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Controllers.LoginModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 22:12:24.827 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Executed DbCommand ("166"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-22 22:12:25.125 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Executed DbCommand ("152"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-22 22:12:25.138 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 22:12:25.145 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Executed action "FCG.Api.Controllers.AccountController.Login (FCG.Api)" in 1686.2927ms
+2025-05-22 22:12:25.145 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Executed endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 22:12:25.147 [Information] CorrelationId:a1ec6a24-765a-4bb3-adbd-1191edca5cb8 Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - 200 null "application/json; charset=utf-8" 1774.0464ms
+2025-05-22 22:13:00.737 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - null null
+2025-05-22 22:13:00.998 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:13:01.024 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 22:13:01.241 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Executed DbCommand ("155"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 22:13:01.252 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 22:13:01.277 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 252.7239ms
+2025-05-22 22:13:01.277 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:13:01.277 [Information] CorrelationId:a8d653c2-b46f-45b6-95f1-db6237bd76c4 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - 200 null "application/json; charset=utf-8" 542.875ms
+2025-05-22 22:14:36.815 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Produto""" - "application/json" 220
+2025-05-22 22:14:36.820 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Executing endpoint '"FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)"'
+2025-05-22 22:14:36.824 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Route matched with "{action = \"Adicionar\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.ProdutoDto]] Adicionar(FCG.Api.Dto.ProdutoDto)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 22:14:37.090 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Executed DbCommand ("161"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Produto] ([Id], [Categoria], [DataAtualizacao], [DataCriacao], [DataLancamento], [Descricao], [Excluido], [Nome], [Preco])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);"
+2025-05-22 22:14:37.095 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Executing "CreatedAtActionResult", writing value of type '"FCG.Api.Dto.ProdutoDto"'.
+2025-05-22 22:14:37.149 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Executed action "FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)" in 324.5891ms
+2025-05-22 22:14:37.149 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Executed endpoint '"FCG.Api.Controllers.ProdutoController.Adicionar (FCG.Api)"'
+2025-05-22 22:14:37.150 [Information] CorrelationId:d94f8078-60b8-4945-a45b-d715a7966b06 Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Produto""" - 201 null "application/json; charset=utf-8" 336.3732ms
+2025-05-22 22:14:41.655 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - null null
+2025-05-22 22:14:41.657 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:14:41.657 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 22:14:41.817 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Executed DbCommand ("153"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 22:14:41.819 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 22:14:41.820 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 162.9286ms
+2025-05-22 22:14:41.821 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:14:41.823 [Information] CorrelationId:ca3a6960-31bb-43d1-a647-86b9826ef05c Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - 200 null "application/json; charset=utf-8" 168.241ms
+2025-05-22 22:14:45.478 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - null null
+2025-05-22 22:14:45.478 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:14:45.478 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 22:14:45.633 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Executed DbCommand ("152"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 22:14:45.636 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 22:14:45.638 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 159.1526ms
+2025-05-22 22:14:45.638 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:14:45.640 [Information] CorrelationId:d0d311ef-1ba4-4d59-bd2f-a523f6ab87b3 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - 200 null "application/json; charset=utf-8" 162.36ms
+2025-05-22 22:15:30.516 [Information] CorrelationId:026d68df-a369-40a9-9543-ae2c0962a5d4 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - "application/json" 230
+2025-05-22 22:15:30.521 [Information] CorrelationId:026d68df-a369-40a9-9543-ae2c0962a5d4 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:15:30.525 [Information] CorrelationId:026d68df-a369-40a9-9543-ae2c0962a5d4 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:15:30.526 [Information] CorrelationId:026d68df-a369-40a9-9543-ae2c0962a5d4 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 9.992ms
+2025-05-22 22:15:44.684 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - "application/json" 65
+2025-05-22 22:15:44.685 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Executing endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 22:15:44.686 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Controllers.LoginModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 22:15:44.846 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Executed DbCommand ("155"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-22 22:15:45.102 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Executed DbCommand ("150"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-22 22:15:45.105 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 22:15:45.106 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Executed action "FCG.Api.Controllers.AccountController.Login (FCG.Api)" in 419.9963ms
+2025-05-22 22:15:45.107 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Executed endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 22:15:45.110 [Information] CorrelationId:0ff203ea-7c6d-4611-8b31-57d12cf02eb7 Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - 200 null "application/json; charset=utf-8" 425.775ms
+2025-05-22 22:16:19.145 [Information] CorrelationId:f7e0c6f5-89f9-4462-bf8f-8c33f45fb4e2 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - "application/json" 230
+2025-05-22 22:16:19.148 [Information] CorrelationId:f7e0c6f5-89f9-4462-bf8f-8c33f45fb4e2 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:16:19.151 [Information] CorrelationId:f7e0c6f5-89f9-4462-bf8f-8c33f45fb4e2 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:16:19.153 [Information] CorrelationId:f7e0c6f5-89f9-4462-bf8f-8c33f45fb4e2 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 7.6629ms
+2025-05-22 22:18:18.839 [Information] CorrelationId:1367118a-5d30-4209-8203-d5aa6d346f60 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - "application/json" 230
+2025-05-22 22:18:18.840 [Information] CorrelationId:1367118a-5d30-4209-8203-d5aa6d346f60 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:18:18.840 [Information] CorrelationId:1367118a-5d30-4209-8203-d5aa6d346f60 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:18:18.840 [Information] CorrelationId:1367118a-5d30-4209-8203-d5aa6d346f60 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 4.4198ms
+2025-05-22 22:18:27.258 [Information] CorrelationId:2e41b054-b7a3-48b5-b586-b303d7c6f234 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - "application/json" 181
+2025-05-22 22:18:27.259 [Information] CorrelationId:2e41b054-b7a3-48b5-b586-b303d7c6f234 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:18:27.259 [Information] CorrelationId:2e41b054-b7a3-48b5-b586-b303d7c6f234 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:18:27.259 [Information] CorrelationId:2e41b054-b7a3-48b5-b586-b303d7c6f234 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 1.0277ms
+2025-05-22 22:18:51.255 [Information] CorrelationId:da57ac42-8680-49f9-ab32-076d8dd398e4 Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Protegido""" - null null
+2025-05-22 22:18:51.262 [Information] CorrelationId:da57ac42-8680-49f9-ab32-076d8dd398e4 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 22:18:51.287 [Information] CorrelationId:da57ac42-8680-49f9-ab32-076d8dd398e4 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 22:18:51.287 [Information] CorrelationId:da57ac42-8680-49f9-ab32-076d8dd398e4 Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Protegido""" - 401 0 null 32.4728ms
+2025-05-22 22:19:14.060 [Information] CorrelationId:c218c42d-4dc5-4c48-870a-7044a96f597b Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - "application/json" 181
+2025-05-22 22:19:14.092 [Information] CorrelationId:c218c42d-4dc5-4c48-870a-7044a96f597b Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:19:14.098 [Information] CorrelationId:c218c42d-4dc5-4c48-870a-7044a96f597b Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:19:14.099 [Information] CorrelationId:c218c42d-4dc5-4c48-870a-7044a96f597b Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 38.6625ms
+2025-05-22 22:19:54.104 [Information] CorrelationId:6dda9075-0bf2-44f5-ac44-3a107b00ac87 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - "application/json" 181
+2025-05-22 22:19:54.107 [Information] CorrelationId:6dda9075-0bf2-44f5-ac44-3a107b00ac87 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:19:54.107 [Information] CorrelationId:6dda9075-0bf2-44f5-ac44-3a107b00ac87 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:19:54.120 [Information] CorrelationId:6dda9075-0bf2-44f5-ac44-3a107b00ac87 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 15.4615ms
+2025-05-22 22:19:58.821 [Information] CorrelationId:1891a629-46da-40a2-9093-1c5e0e52109a Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - null 0
+2025-05-22 22:19:58.835 [Information] CorrelationId:1891a629-46da-40a2-9093-1c5e0e52109a Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:19:58.835 [Information] CorrelationId:1891a629-46da-40a2-9093-1c5e0e52109a Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:19:58.835 [Information] CorrelationId:1891a629-46da-40a2-9093-1c5e0e52109a Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 14.0912ms
+2025-05-22 22:20:10.780 [Information] CorrelationId:d8851747-03e7-4457-a970-8539ebb1a148 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - "application/json" 181
+2025-05-22 22:20:10.782 [Information] CorrelationId:d8851747-03e7-4457-a970-8539ebb1a148 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:20:10.782 [Information] CorrelationId:d8851747-03e7-4457-a970-8539ebb1a148 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:20:10.782 [Information] CorrelationId:d8851747-03e7-4457-a970-8539ebb1a148 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""" - 405 0 null 1.7342ms
+2025-05-22 22:20:42.332 [Information] CorrelationId:41d94619-cf36-48a7-9ce7-58ae55ab168b Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - "application/json" 181
+2025-05-22 22:20:42.339 [Information] CorrelationId:41d94619-cf36-48a7-9ce7-58ae55ab168b Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:20:42.344 [Information] CorrelationId:41d94619-cf36-48a7-9ce7-58ae55ab168b Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:20:42.344 [Information] CorrelationId:41d94619-cf36-48a7-9ce7-58ae55ab168b Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - 405 0 null 12.1827ms
+2025-05-22 22:21:02.432 [Information] CorrelationId:8f6e9901-e841-4d72-bfaf-f2e372188da2 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - "application/json" 230
+2025-05-22 22:21:02.433 [Information] CorrelationId:8f6e9901-e841-4d72-bfaf-f2e372188da2 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:21:02.433 [Information] CorrelationId:8f6e9901-e841-4d72-bfaf-f2e372188da2 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:21:02.433 [Information] CorrelationId:8f6e9901-e841-4d72-bfaf-f2e372188da2 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - 405 0 null 1.7426ms
+2025-05-22 22:21:04.794 [Information] CorrelationId:8fa19739-6e60-4f4e-bfb3-7e3c60aec8b4 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - "application/json" 230
+2025-05-22 22:21:04.795 [Information] CorrelationId:8fa19739-6e60-4f4e-bfb3-7e3c60aec8b4 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:21:04.795 [Information] CorrelationId:8fa19739-6e60-4f4e-bfb3-7e3c60aec8b4 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:21:04.795 [Information] CorrelationId:8fa19739-6e60-4f4e-bfb3-7e3c60aec8b4 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - 405 0 null 0.7488ms
+2025-05-22 22:21:38.154 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Request starting "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - "application/json" 65
+2025-05-22 22:21:38.154 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Executing endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 22:21:38.158 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Route matched with "{action = \"Login\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Controllers.LoginModel)" on controller "FCG.Api.Controllers.AccountController" ("FCG.Api").
+2025-05-22 22:21:39.130 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Executed DbCommand ("154"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-05-22 22:21:39.557 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Executed DbCommand ("148"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-05-22 22:21:39.560 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-05-22 22:21:39.564 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Executed action "FCG.Api.Controllers.AccountController.Login (FCG.Api)" in 1406.2186ms
+2025-05-22 22:21:39.565 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Executed endpoint '"FCG.Api.Controllers.AccountController.Login (FCG.Api)"'
+2025-05-22 22:21:39.567 [Information] CorrelationId:d3829d27-0ffb-4b8e-9d9e-f24bdb07f834 Request finished "HTTP/1.1" "POST" "http"://"localhost:5134""""/api/Account/login""" - 200 null "application/json; charset=utf-8" 1412.5893ms
+2025-05-22 22:22:34.095 [Information] CorrelationId:a77335e6-f483-41c2-8652-948db5e897f7 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=%223fa85f64-5717-4562-b3fc-2c963f66afa6%22" - "application/json" 230
+2025-05-22 22:22:34.098 [Information] CorrelationId:a77335e6-f483-41c2-8652-948db5e897f7 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:22:34.098 [Information] CorrelationId:a77335e6-f483-41c2-8652-948db5e897f7 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:22:34.098 [Information] CorrelationId:a77335e6-f483-41c2-8652-948db5e897f7 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=%223fa85f64-5717-4562-b3fc-2c963f66afa6%22" - 405 0 null 6.4248ms
+2025-05-22 22:22:39.694 [Information] CorrelationId:67ba3aae-4552-430c-8428-afafc6d07039 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=%223fa85f64-5717-4562-b3fc-2c963f66afa6%22" - "application/json" 230
+2025-05-22 22:22:39.695 [Information] CorrelationId:67ba3aae-4552-430c-8428-afafc6d07039 Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:22:39.695 [Information] CorrelationId:67ba3aae-4552-430c-8428-afafc6d07039 Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:22:39.695 [Information] CorrelationId:67ba3aae-4552-430c-8428-afafc6d07039 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=%223fa85f64-5717-4562-b3fc-2c963f66afa6%22" - 405 0 null 1.5239ms
+2025-05-22 22:22:50.526 [Information] CorrelationId:2607f9c0-d030-4d71-94a1-41ae6ad6aafa Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - "application/json" 230
+2025-05-22 22:22:50.526 [Information] CorrelationId:2607f9c0-d030-4d71-94a1-41ae6ad6aafa Executing endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:22:50.527 [Information] CorrelationId:2607f9c0-d030-4d71-94a1-41ae6ad6aafa Executed endpoint '"405 HTTP Method Not Supported"'
+2025-05-22 22:22:50.527 [Information] CorrelationId:2607f9c0-d030-4d71-94a1-41ae6ad6aafa Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto""?id=3fa85f64-5717-4562-b3fc-2c963f66afa6" - 405 0 null 0.7605ms
+2025-05-22 22:23:31.649 [Information] CorrelationId:93fbab51-f960-4160-a353-d47a210eb5c6 Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - "application/json" 182
+2025-05-22 22:23:31.669 [Information] CorrelationId:93fbab51-f960-4160-a353-d47a210eb5c6 Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2025-05-22 22:23:31.669 [Information] CorrelationId:93fbab51-f960-4160-a353-d47a210eb5c6 AuthenticationScheme: "Bearer" was challenged.
+2025-05-22 22:23:31.670 [Information] CorrelationId:93fbab51-f960-4160-a353-d47a210eb5c6 Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 401 0 null 23.2723ms
+2025-05-22 22:23:50.502 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Request starting "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - "application/json" 230
+2025-05-22 22:23:50.517 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Executing endpoint '"FCG.Api.Controllers.ProdutoController.Atualizar (FCG.Api)"'
+2025-05-22 22:23:50.542 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Route matched with "{action = \"Atualizar\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Atualizar(System.Guid, FCG.Api.Dto.ProdutoDto)" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 22:24:09.343 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Executed DbCommand ("155"ms) [Parameters=["@p8='?' (DbType = Guid), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Produto] SET [Categoria] = @p0, [DataAtualizacao] = @p1, [DataCriacao] = @p2, [DataLancamento] = @p3, [Descricao] = @p4, [Excluido] = @p5, [Nome] = @p6, [Preco] = @p7
+OUTPUT 1
+WHERE [Id] = @p8;"
+2025-05-22 22:24:13.371 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Executing StatusCodeResult, setting HTTP status code 204
+2025-05-22 22:24:13.371 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Executed action "FCG.Api.Controllers.ProdutoController.Atualizar (FCG.Api)" in 22829.1083ms
+2025-05-22 22:24:13.371 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Executed endpoint '"FCG.Api.Controllers.ProdutoController.Atualizar (FCG.Api)"'
+2025-05-22 22:24:18.901 [Information] CorrelationId:507415cf-d628-499d-b991-9b179d23f92e Request finished "HTTP/1.1" "PUT" "http"://"localhost:5134""""/api/Produto/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 204 null null 28399.2348ms
+2025-05-22 22:24:38.672 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Request starting "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - null null
+2025-05-22 22:24:48.143 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Executing endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:24:48.143 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Route matched with "{action = \"GetTodos\", controller = \"Produto\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.ProdutoDto]]] GetTodos()" on controller "FCG.Api.Controllers.ProdutoController" ("FCG.Api").
+2025-05-22 22:24:48.295 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Executed DbCommand ("149"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[Id], [p].[Categoria], [p].[DataAtualizacao], [p].[DataCriacao], [p].[DataLancamento], [p].[Descricao], [p].[Excluido], [p].[Nome], [p].[Preco]
+FROM [Produto] AS [p]
+ORDER BY [p].[Nome]"
+2025-05-22 22:24:48.296 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Produto, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.ProdutoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-05-22 22:24:48.297 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Executed action "FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)" in 153.4943ms
+2025-05-22 22:24:48.297 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Executed endpoint '"FCG.Api.Controllers.ProdutoController.GetTodos (FCG.Api)"'
+2025-05-22 22:24:49.039 [Information] CorrelationId:d1ff0f4f-d297-4962-a674-25363fb713ff Request finished "HTTP/1.1" "GET" "http"://"localhost:5134""""/api/Produto""" - 200 null "application/json; charset=utf-8" 10366.7769ms

@@ -1,0 +1,26 @@
+2025-05-18 22:10:32.074 [Information] CorrelationId: Iniciando WebApi
+2025-05-18 22:10:33.067 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-05-18 22:10:33.116 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 22:10:33.360 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-05-18 22:10:33.360 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-05-18 22:10:33.414 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-05-18 22:10:33.415 [Information] CorrelationId: Hosting environment: "Development"
+2025-05-18 22:10:33.415 [Information] CorrelationId: Content root path: "C:\GitFiap\Fase01\FCG\FCG.Api"
+2025-05-18 22:10:34.268 [Information] CorrelationId: Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-05-18 22:10:34.510 [Information] CorrelationId: Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 248.9704ms
+2025-05-18 22:10:34.513 [Information] CorrelationId: Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-05-18 22:10:34.513 [Information] CorrelationId: Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-05-18 22:10:34.527 [Information] CorrelationId: Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 13750 "application/javascript; charset=utf-8" 13.5669ms
+2025-05-18 22:10:34.566 [Information] CorrelationId: Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 52.8478ms
+2025-05-18 22:10:34.637 [Information] CorrelationId: Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-05-18 22:10:34.667 [Information] CorrelationId: Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 29.8756ms
+2025-05-18 22:10:43.267 [Information] CorrelationId: Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/WeatherForecast""" - null null
+2025-05-18 22:10:43.341 [Information] CorrelationId: Executing endpoint '"FCG.Api.Controllers.WeatherForecastController.Get (FCG.Api)"'
+2025-05-18 22:10:43.359 [Information] CorrelationId: Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[FCG.Api.WeatherForecast] Get()" on controller "FCG.Api.Controllers.WeatherForecastController" ("FCG.Api").
+2025-05-18 22:10:48.954 [Information] CorrelationId: Registro acesso ao WeatherForecast
+
+
+2025-05-18 22:10:48.964 [Information] CorrelationId: Executing "ObjectResult", writing value of type '"FCG.Api.WeatherForecast[]"'.
+2025-05-18 22:10:48.983 [Information] CorrelationId: Executed action "FCG.Api.Controllers.WeatherForecastController.Get (FCG.Api)" in 5617.7979ms
+2025-05-18 22:10:48.983 [Information] CorrelationId: Executed endpoint '"FCG.Api.Controllers.WeatherForecastController.Get (FCG.Api)"'
+2025-05-18 22:10:48.983 [Information] CorrelationId: Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/WeatherForecast""" - 200 null "application/json; charset=utf-8" 5716.3986ms
