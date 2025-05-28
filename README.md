@@ -80,7 +80,7 @@ Para executar os testes:
 dotnet test
 ```
 
-##Idealizadores do projeto
+## Idealizadores do projeto
 - Clovis Alceu Cassaro
 - Gabriel Santos Ramos
 - Júlio César de Carvalho
