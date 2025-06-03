@@ -340,3 +340,348 @@ Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
    at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
    at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
    at Program.<Main>$(String[] args) in C:\Projetos\TechChalange_Fase1\FCG.Api\Program.cs:line 29
+2025-06-02 22:21:18.452 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 22:21:19.850 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\DesafioFiap\TechChalange_Fase1\FCG.Api\Program.cs:line 29
+2025-06-02 22:21:39.984 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 22:21:40.198 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\DesafioFiap\TechChalange_Fase1\FCG.Api\Program.cs:line 29
+2025-06-02 22:26:38.048 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 22:26:41.422 [Information] CorrelationId: User profile is available. Using '"C:\Users\Gabriel\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 22:26:43.342 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Jogo"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-02 22:26:45.370 [Information] CorrelationId: Executed DbCommand ("107"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 22:26:45.425 [Information] CorrelationId: Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 22:26:45.704 [Information] CorrelationId: Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);"
+2025-06-02 22:26:45.721 [Information] CorrelationId: Role 'Administrador' criada com sucesso
+2025-06-02 22:26:45.727 [Information] CorrelationId: Executed DbCommand ("6"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 22:26:45.729 [Information] CorrelationId: Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 22:26:45.734 [Information] CorrelationId: Executed DbCommand ("1"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);"
+2025-06-02 22:26:45.734 [Information] CorrelationId: Role 'Usuario' criada com sucesso
+2025-06-02 22:26:45.759 [Information] CorrelationId: Executed DbCommand ("4"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 22:26:45.958 [Information] CorrelationId: Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 22:26:45.970 [Information] CorrelationId: Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 22:26:46.121 [Information] CorrelationId: Executed DbCommand ("10"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 4000), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [Nome], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);"
+2025-06-02 22:26:46.139 [Information] CorrelationId: Executed DbCommand ("4"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-06-02 22:26:46.213 [Information] CorrelationId: Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-06-02 22:26:46.220 [Information] CorrelationId: Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-06-02 22:26:46.255 [Information] CorrelationId: Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 22:26:46.265 [Information] CorrelationId: Executed DbCommand ("5"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 22:26:46.310 [Information] CorrelationId: Executed DbCommand ("10"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [Nome] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;"
+2025-06-02 22:26:46.325 [Information] CorrelationId: Usuário administrador criado com sucesso: adminuser@fiap.com.br
+2025-06-02 22:26:46.341 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-06-02 22:26:46.744 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-06-02 22:26:46.744 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-06-02 22:26:46.869 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-06-02 22:26:46.869 [Information] CorrelationId: Hosting environment: "Development"
+2025-06-02 22:26:46.869 [Information] CorrelationId: Content root path: "C:\Projetos\DesafioFiap\TechChalange_Fase1\FCG.Api"
+2025-06-02 22:26:48.262 [Information] CorrelationId:b7e0b00d-8118-445e-90e9-acd9497d9e50 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-06-02 22:26:48.909 [Information] CorrelationId:b7e0b00d-8118-445e-90e9-acd9497d9e50 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 662.3783ms
+2025-06-02 22:26:49.030 [Information] CorrelationId:4e4cde09-8379-4d25-8bfd-cea9b398ea10 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-06-02 22:26:49.047 [Information] CorrelationId:b4dcbd53-4b98-436c-9d0d-6b8541d6c085 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-02 22:26:49.067 [Information] CorrelationId:b4dcbd53-4b98-436c-9d0d-6b8541d6c085 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 16499 "application/javascript; charset=utf-8" 19.0552ms
+2025-06-02 22:26:49.232 [Information] CorrelationId:4e4cde09-8379-4d25-8bfd-cea9b398ea10 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 202.6536ms
+2025-06-02 22:26:50.229 [Information] CorrelationId:a2e5ac06-76a3-4587-aa04-72533d41e4df Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-06-02 22:26:50.334 [Information] CorrelationId:a2e5ac06-76a3-4587-aa04-72533d41e4df Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 105.1301ms
+2025-06-02 22:27:28.342 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/registro""" - "application/json" 108
+2025-06-02 22:27:28.648 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 22:27:28.664 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Registro (FCG.Api)"'
+2025-06-02 22:27:28.693 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Route matched with "{action = \"Registro\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(FCG.Api.Dto.RegistroModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-06-02 22:27:28.952 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("5"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 22:27:29.073 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 22:27:29.075 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 22:27:29.080 [Warning] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-06-02 22:27:29.085 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 4000), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [Nome], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);"
+2025-06-02 22:27:29.088 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("3"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-06-02 22:27:29.094 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-06-02 22:27:29.096 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-06-02 22:27:29.100 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 22:27:29.103 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 22:27:29.106 [Warning] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-06-02 22:27:29.113 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed DbCommand ("7"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [Nome] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;"
+2025-06-02 22:27:29.125 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executing "OkObjectResult", writing value of type '"<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-06-02 22:27:29.142 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed action "FCG.Api.Controllers.v1.AuthController.Registro (FCG.Api)" in 443.0222ms
+2025-06-02 22:27:29.143 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Registro (FCG.Api)"'
+2025-06-02 22:27:29.150 [Information] CorrelationId:5f9a1129-6338-423d-bbf4-360605462e87 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/registro""" - 200 null "application/json; charset=utf-8" 808.1345ms
+2025-06-02 22:27:59.992 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 74
+2025-06-02 22:27:59.998 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 22:27:59.999 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 22:28:00.006 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-06-02 22:28:00.052 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 22:28:00.225 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Executed DbCommand ("9"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-06-02 22:28:00.242 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Executing "OkObjectResult", writing value of type '"<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-06-02 22:28:00.254 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 247.3348ms
+2025-06-02 22:28:00.254 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 22:28:00.255 [Information] CorrelationId:68cc3155-838b-4d2d-8651-ed186412645d Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 262.9937ms
+2025-06-02 22:28:24.847 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - null null
+2025-06-02 22:28:24.893 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:28:24.901 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Executing endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:28:24.905 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.JogoController" ("FCG.Api").
+2025-06-02 22:28:24.939 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+WHERE [j].[Excluido] = CAST(0 AS bit)
+ORDER BY [j].[Nome]"
+2025-06-02 22:28:24.943 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 22:28:24.952 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Executed action "FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)" in 46.3113ms
+2025-06-02 22:28:24.952 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Executed endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:28:24.952 [Information] CorrelationId:97916d90-af2a-4a62-bd28-3aed19179879 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 106.2755ms
+2025-06-02 22:28:35.463 [Information] CorrelationId:73b04b6c-f4b8-4ae1-b341-ab08f0328902 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - null null
+2025-06-02 22:28:35.499 [Information] CorrelationId:73b04b6c-f4b8-4ae1-b341-ab08f0328902 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - 200 null "application/json;charset=utf-8" 35.9211ms
+2025-06-02 22:28:45.968 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - null null
+2025-06-02 22:28:45.972 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:28:45.974 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Executing endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:28:45.978 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 22:28:45.990 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+ORDER BY [j].[Nome]"
+2025-06-02 22:28:45.992 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 22:28:45.992 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Executed action "FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)" in 14.1106ms
+2025-06-02 22:28:45.992 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Executed endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:28:45.993 [Information] CorrelationId:0b2f999b-262e-4c43-9d4f-aa5db55d3a9f Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 24.8178ms
+2025-06-02 22:30:09.005 [Information] CorrelationId:8e155bbe-bd6e-496c-8a76-ff53723de214 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-06-02 22:30:09.053 [Information] CorrelationId:8e155bbe-bd6e-496c-8a76-ff53723de214 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 48.8103ms
+2025-06-02 22:30:30.386 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 64
+2025-06-02 22:30:30.387 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:30:30.388 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 22:30:30.388 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-06-02 22:30:30.436 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Executed DbCommand ("9"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 22:30:30.533 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-06-02 22:30:30.533 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Executing "OkObjectResult", writing value of type '"<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-06-02 22:30:30.534 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 145.4289ms
+2025-06-02 22:30:30.534 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 22:30:30.534 [Information] CorrelationId:902d5f36-3036-4a19-9888-76362a9e1ddd Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 147.7702ms
+2025-06-02 22:30:45.679 [Information] CorrelationId:d48264ea-948c-4dfc-8cd2-ec85f37007a0 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - null null
+2025-06-02 22:30:45.728 [Information] CorrelationId:d48264ea-948c-4dfc-8cd2-ec85f37007a0 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - 200 null "application/json;charset=utf-8" 51.0766ms
+2025-06-02 22:31:29.660 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - "application/json" 212
+2025-06-02 22:31:29.679 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 22:31:29.697 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Executing endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 22:31:29.710 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Route matched with "{action = \"Adicionar\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.JogoDto]] Adicionar(FCG.Api.Dto.JogoDto)" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 22:31:29.853 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Executed DbCommand ("18"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Jogo] ([Id], [Categoria], [DataAtualizacao], [DataCriacao], [DataLancamento], [Descricao], [Excluido], [Nome], [Preco])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);"
+2025-06-02 22:31:29.858 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Executing "CreatedAtActionResult", writing value of type '"FCG.Api.Dto.JogoDto"'.
+2025-06-02 22:31:29.904 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Executed action "FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)" in 194.2804ms
+2025-06-02 22:31:29.904 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Executed endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 22:31:29.905 [Information] CorrelationId:959baf80-ea22-4b64-a2d3-0a13d6489c02 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - 201 null "application/json; charset=utf-8" 246.6935ms
+2025-06-02 22:31:43.191 [Information] CorrelationId:9144ba44-bb05-40bd-bde6-78c0c96d7dfe Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-06-02 22:31:43.232 [Information] CorrelationId:9144ba44-bb05-40bd-bde6-78c0c96d7dfe Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 42.1955ms
+2025-06-02 22:31:59.799 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterPorId/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-06-02 22:31:59.804 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 22:31:59.805 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Executing endpoint '"FCG.Api.Controllers.v1.JogoController.GetPorId (FCG.Api)"'
+2025-06-02 22:31:59.822 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Route matched with "{action = \"GetPorId\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.JogoDto]] GetPorId(System.Guid)" on controller "FCG.Api.Controllers.v1.JogoController" ("FCG.Api").
+2025-06-02 22:31:59.876 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Executed DbCommand ("17"ms) [Parameters=["@__id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+WHERE [j].[Excluido] = CAST(0 AS bit) AND [j].[Id] = @__id_0"
+2025-06-02 22:31:59.892 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Executing "OkObjectResult", writing value of type '"FCG.Api.Dto.JogoDto"'.
+2025-06-02 22:31:59.893 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Executed action "FCG.Api.Controllers.v1.JogoController.GetPorId (FCG.Api)" in 70.7757ms
+2025-06-02 22:31:59.894 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Executed endpoint '"FCG.Api.Controllers.v1.JogoController.GetPorId (FCG.Api)"'
+2025-06-02 22:31:59.895 [Information] CorrelationId:a0e434fd-159b-459d-b8f0-08eb898c6acc Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterPorId/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 200 null "application/json; charset=utf-8" 95.3354ms
+2025-06-02 22:32:29.651 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 74
+2025-06-02 22:32:29.657 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 22:32:29.659 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 22:32:29.663 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-06-02 22:32:29.676 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Executed DbCommand ("11"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 22:32:29.777 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-06-02 22:32:29.778 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Executing "OkObjectResult", writing value of type '"<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-06-02 22:32:29.778 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 115.0178ms
+2025-06-02 22:32:29.778 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 22:32:29.778 [Information] CorrelationId:ae041980-112c-422e-95cd-b5019ccb1acd Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 127.9305ms
+2025-06-02 22:32:47.495 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - null null
+2025-06-02 22:32:47.496 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:32:47.497 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Executing endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:47.497 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.JogoController" ("FCG.Api").
+2025-06-02 22:32:47.545 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+WHERE [j].[Excluido] = CAST(0 AS bit)
+ORDER BY [j].[Nome]"
+2025-06-02 22:32:47.545 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 22:32:47.546 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Executed action "FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)" in 49.1826ms
+2025-06-02 22:32:47.546 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Executed endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:47.547 [Information] CorrelationId:cad1cbaa-172d-436e-8029-ff6613fb89bf Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 52.613ms
+2025-06-02 22:32:50.670 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - null null
+2025-06-02 22:32:50.671 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:32:50.672 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Executing endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:50.672 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.JogoController" ("FCG.Api").
+2025-06-02 22:32:50.676 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+WHERE [j].[Excluido] = CAST(0 AS bit)
+ORDER BY [j].[Nome]"
+2025-06-02 22:32:50.678 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 22:32:50.679 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Executed action "FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)" in 6.8812ms
+2025-06-02 22:32:50.679 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Executed endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:50.680 [Information] CorrelationId:34fdd55a-ee73-49a9-94d3-4ccbb9d04f9b Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 9.6819ms
+2025-06-02 22:32:51.400 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - null null
+2025-06-02 22:32:51.400 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:32:51.401 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Executing endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:51.401 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.JogoController" ("FCG.Api").
+2025-06-02 22:32:51.404 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+WHERE [j].[Excluido] = CAST(0 AS bit)
+ORDER BY [j].[Nome]"
+2025-06-02 22:32:51.406 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 22:32:51.407 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Executed action "FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)" in 5.6527ms
+2025-06-02 22:32:51.407 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Executed endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:51.407 [Information] CorrelationId:540dcb6b-f819-4f40-9aba-d464b04865c1 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 7.5408ms
+2025-06-02 22:32:53.886 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - null null
+2025-06-02 22:32:53.887 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:32:53.887 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Executing endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:53.888 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v1.JogoController" ("FCG.Api").
+2025-06-02 22:32:53.892 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+WHERE [j].[Excluido] = CAST(0 AS bit)
+ORDER BY [j].[Nome]"
+2025-06-02 22:32:53.895 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 22:32:53.895 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Executed action "FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)" in 7.1687ms
+2025-06-02 22:32:53.895 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Executed endpoint '"FCG.Api.Controllers.v1.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:32:53.896 [Information] CorrelationId:f6a091b6-d34b-4a38-b191-d45d453a53cf Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v1/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 9.4908ms
+2025-06-02 22:33:47.171 [Information] CorrelationId:c8936756-7a75-4947-be2e-5bd3204769bc Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - null null
+2025-06-02 22:33:47.237 [Information] CorrelationId:c8936756-7a75-4947-be2e-5bd3204769bc Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - 200 null "application/json;charset=utf-8" 65.8336ms
+2025-06-02 22:33:56.634 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - null null
+2025-06-02 22:33:56.635 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:33:56.636 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Executing endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:33:56.636 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 22:33:56.654 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+ORDER BY [j].[Nome]"
+2025-06-02 22:33:56.654 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 22:33:56.655 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Executed action "FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)" in 18.8296ms
+2025-06-02 22:33:56.655 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Executed endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 22:33:56.655 [Information] CorrelationId:d1fd6311-5203-4aab-9528-e6bf675d8f24 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 21.478ms
+2025-06-02 22:34:06.721 [Information] CorrelationId:670613ba-ceff-4642-a8cb-b302daa36ccb Request starting "HTTP/2" "DELETE" "https"://"localhost:7087""""/api/v2/Jogo/Remover/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - null null
+2025-06-02 22:34:06.721 [Information] CorrelationId:670613ba-ceff-4642-a8cb-b302daa36ccb JWT Token validated for user: gabrielsr1991@outlook.com
+2025-06-02 22:34:06.722 [Information] CorrelationId:670613ba-ceff-4642-a8cb-b302daa36ccb Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrador)"
+2025-06-02 22:34:06.729 [Information] CorrelationId:670613ba-ceff-4642-a8cb-b302daa36ccb AuthenticationScheme: "Bearer" was forbidden.
+2025-06-02 22:34:06.729 [Information] CorrelationId:670613ba-ceff-4642-a8cb-b302daa36ccb Request finished "HTTP/2" "DELETE" "https"://"localhost:7087""""/api/v2/Jogo/Remover/3fa85f64-5717-4562-b3fc-2c963f66afa6""" - 403 0 null 8.5697ms

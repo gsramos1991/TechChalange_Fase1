@@ -182,6 +182,10 @@ dotnet run --project FCG.Api
 - 📖 **Swagger Documentation**: `https://localhost:7001/swagger`
 - 💚 **Health Check**: `https://localhost:7001/health`
 
+### **6 Login de Administrador
+- 🔐 Obter Email e senha nas configuracoes do projeto (Criação automática).
+
+
 ## 💻 Idealizadores do projeto (Discord name)
 - 👨‍💻Clovis Alceu Cassaro (cloves_93258)
 - 👨‍💻Gabriel Santos Ramos (_gsramos)
