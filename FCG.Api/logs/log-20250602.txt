@@ -1,0 +1,342 @@
+2025-06-02 21:02:37.057 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:02:38.609 [Information] CorrelationId: User profile is available. Using '"C:\Users\cesar\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 21:02:39.095 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Jogo"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-02 21:19:02.092 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:19:03.433 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:20:15.615 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:20:15.840 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:21:15.414 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:21:15.634 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:23:53.747 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:23:53.984 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:25:50.833 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:25:51.064 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:46:39.970 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:46:40.543 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:47:21.471 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:47:21.713 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:48:26.811 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:48:27.191 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:49:00.184 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:49:00.482 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 21:52:12.739 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 21:52:18.862 [Information] CorrelationId: User profile is available. Using '"C:\Users\Gabriel\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 21:52:20.867 [Warning] CorrelationId: No store type was specified for the decimal property '"Preco"' on entity type '"Jogo"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-06-02 21:52:24.825 [Information] CorrelationId: Executed DbCommand ("220"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 21:52:24.903 [Information] CorrelationId: Executed DbCommand ("3"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 21:52:25.423 [Information] CorrelationId: Executed DbCommand ("13"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);"
+2025-06-02 21:52:25.457 [Information] CorrelationId: Role 'Administrador' criada com sucesso
+2025-06-02 21:52:25.469 [Information] CorrelationId: Executed DbCommand ("10"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 21:52:25.472 [Information] CorrelationId: Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0"
+2025-06-02 21:52:25.487 [Information] CorrelationId: Executed DbCommand ("4"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);"
+2025-06-02 21:52:25.488 [Information] CorrelationId: Role 'Usuario' criada com sucesso
+2025-06-02 21:52:25.525 [Information] CorrelationId: Executed DbCommand ("7"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 21:52:25.760 [Information] CorrelationId: Executed DbCommand ("3"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 21:52:25.771 [Information] CorrelationId: Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 21:52:26.024 [Information] CorrelationId: Executed DbCommand ("34"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 4000), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [Nome], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);"
+2025-06-02 21:52:26.078 [Information] CorrelationId: Executed DbCommand ("8"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-06-02 21:52:26.442 [Information] CorrelationId: Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1"
+2025-06-02 21:52:26.455 [Information] CorrelationId: Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0"
+2025-06-02 21:52:26.526 [Information] CorrelationId: Executed DbCommand ("19"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 21:52:26.553 [Information] CorrelationId: Executed DbCommand ("15"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0"
+2025-06-02 21:52:26.656 [Information] CorrelationId: Executed DbCommand ("19"ms) [Parameters=["@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [Nome] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;"
+2025-06-02 21:52:26.693 [Information] CorrelationId: Usuário administrador criado com sucesso: adminuser@fiap.com.br
+2025-06-02 21:52:26.728 [Information] CorrelationId: Finalizando bootstrap da WebApi
+2025-06-02 21:52:27.446 [Information] CorrelationId: Now listening on: "https://localhost:7087"
+2025-06-02 21:52:27.446 [Information] CorrelationId: Now listening on: "http://localhost:5134"
+2025-06-02 21:52:27.660 [Information] CorrelationId: Application started. Press Ctrl+C to shut down.
+2025-06-02 21:52:27.661 [Information] CorrelationId: Hosting environment: "Development"
+2025-06-02 21:52:27.661 [Information] CorrelationId: Content root path: "C:\Projetos\Fase01\FCG\FCG.Api"
+2025-06-02 21:52:29.706 [Information] CorrelationId:9629c393-ece5-4803-bd80-68d0f5813cff Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger""" - null null
+2025-06-02 21:52:30.267 [Information] CorrelationId:9629c393-ece5-4803-bd80-68d0f5813cff Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger""" - 301 0 null 585.5382ms
+2025-06-02 21:52:30.308 [Information] CorrelationId:79617d4d-722f-4cb5-a23b-2f1326fec0e1 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - null null
+2025-06-02 21:52:30.616 [Information] CorrelationId:79617d4d-722f-4cb5-a23b-2f1326fec0e1 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 309.5332ms
+2025-06-02 21:52:30.623 [Information] CorrelationId:2119cf6d-7043-4cb0-a61d-3063e78bcd25 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/swagger-ui.css""" - null null
+2025-06-02 21:52:30.634 [Information] CorrelationId:4c8e1ced-756a-45c4-ad5b-15f8b59147b9 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2025-06-02 21:52:30.634 [Information] CorrelationId:17d32a69-d6cc-473d-8338-cb10620cc6de Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/swagger-ui-bundle.js""" - null null
+2025-06-02 21:52:30.693 [Information] CorrelationId:a83b667a-fa3d-4c04-bfa4-b8a814f50985 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-02 21:52:30.725 [Information] CorrelationId:eecc58bc-3611-4226-b24e-8256b98ab685 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - null null
+2025-06-02 21:52:30.804 [Information] CorrelationId:a83b667a-fa3d-4c04-bfa4-b8a814f50985 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_framework/aspnetcore-browser-refresh.js""" - 200 16499 "application/javascript; charset=utf-8" 108.1097ms
+2025-06-02 21:52:30.857 [Information] CorrelationId:2119cf6d-7043-4cb0-a61d-3063e78bcd25 Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2025-06-02 21:52:30.858 [Information] CorrelationId:2119cf6d-7043-4cb0-a61d-3063e78bcd25 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 234.9472ms
+2025-06-02 21:52:30.857 [Information] CorrelationId:4c8e1ced-756a-45c4-ad5b-15f8b59147b9 Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2025-06-02 21:52:30.859 [Information] CorrelationId:4c8e1ced-756a-45c4-ad5b-15f8b59147b9 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 225.2781ms
+2025-06-02 21:52:31.032 [Information] CorrelationId:17d32a69-d6cc-473d-8338-cb10620cc6de Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2025-06-02 21:52:31.033 [Information] CorrelationId:17d32a69-d6cc-473d-8338-cb10620cc6de Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 399.201ms
+2025-06-02 21:52:31.113 [Information] CorrelationId:eecc58bc-3611-4226-b24e-8256b98ab685 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 418.5002ms
+2025-06-02 21:52:32.728 [Information] CorrelationId:a7cb4ad2-eb79-4600-9487-effe6da558ca Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - null null
+2025-06-02 21:52:32.729 [Information] CorrelationId:b8a4fc21-7b60-40cb-adb9-0100fdb1a612 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/favicon-32x32.png""" - null null
+2025-06-02 21:52:32.730 [Information] CorrelationId:b8a4fc21-7b60-40cb-adb9-0100fdb1a612 Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2025-06-02 21:52:32.730 [Information] CorrelationId:b8a4fc21-7b60-40cb-adb9-0100fdb1a612 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 1.545ms
+2025-06-02 21:52:32.852 [Information] CorrelationId:a7cb4ad2-eb79-4600-9487-effe6da558ca Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 124.9327ms
+2025-06-02 21:53:08.852 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - "application/json" 64
+2025-06-02 21:53:09.223 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Executing endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 21:53:09.272 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FCG.Api.Dto.LoginModel)" on controller "FCG.Api.Controllers.v1.AuthController" ("FCG.Api").
+2025-06-02 21:53:09.645 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Executed DbCommand ("5"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Nome], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0"
+2025-06-02 21:53:09.983 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Executed DbCommand ("11"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+2025-06-02 21:53:10.155 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Executing "OkObjectResult", writing value of type '"<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType3`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-06-02 21:53:10.198 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Executed action "FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)" in 917.9618ms
+2025-06-02 21:53:10.199 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Executed endpoint '"FCG.Api.Controllers.v1.AuthController.Login (FCG.Api)"'
+2025-06-02 21:53:10.211 [Information] CorrelationId:36601ddf-2bb1-4f7e-98eb-a52fb503334e Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v1/Auth/login""" - 200 null "application/json; charset=utf-8" 1359.0483ms
+2025-06-02 21:53:32.244 [Information] CorrelationId:34dd8d73-e979-436a-a26f-852c92c40b0f Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - null null
+2025-06-02 21:53:32.408 [Information] CorrelationId:34dd8d73-e979-436a-a26f-852c92c40b0f Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/swagger/v2/swagger.json""" - 200 null "application/json;charset=utf-8" 165.0427ms
+2025-06-02 21:53:45.577 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - null null
+2025-06-02 21:53:46.029 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 21:53:46.279 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Executing endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 21:53:46.314 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 21:54:12.370 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+ORDER BY [j].[Nome]"
+2025-06-02 21:54:12.379 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 21:54:12.392 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Executed action "FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)" in 26077.0665ms
+2025-06-02 21:54:12.392 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Executed endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 21:54:12.393 [Information] CorrelationId:9ea69407-7e96-4fb4-814d-c8bce4359bef Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 26816.2828ms
+2025-06-02 21:54:39.364 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - "application/json" 188
+2025-06-02 21:54:39.398 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 21:54:39.416 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Executing endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:54:39.428 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Route matched with "{action = \"Adicionar\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.JogoDto]] Adicionar(FCG.Api.Dto.JogoDto)" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 21:54:39.548 [Error] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Erro ao adicionar novo produto.
+System.ArgumentException: Descrição deve ter mais de 10 caracteres
+   at FCG.Business.Models.Jogo.ValidarDescricao(String descricao) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 102
+   at FCG.Business.Models.Jogo.ValidarEntidade(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 68
+   at FCG.Business.Models.Jogo..ctor(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 24
+   at FCG.Api.MappingDtos.JogoMappingExtensions.ToDomain(JogoDto dto) in C:\Projetos\Fase01\FCG\FCG.Api\MappingDtos\JogoMappingExtensions.cs:line 28
+   at FCG.Api.Controllers.v2.JogoController.Adicionar(JogoDto produtoDto) in C:\Projetos\Fase01\FCG\FCG.Api\Controllers\v2\JogoController.cs:line 326
+2025-06-02 21:54:39.674 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Executing "ObjectResult", writing value of type '"System.String"'.
+2025-06-02 21:54:39.676 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Executed action "FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)" in 247.04ms
+2025-06-02 21:54:39.676 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Executed endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:54:39.677 [Information] CorrelationId:4c9c4b5b-7f6e-447b-926c-4664126fdf6f Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - 500 null "text/plain; charset=utf-8" 317.4092ms
+2025-06-02 21:54:47.902 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - "application/json" 188
+2025-06-02 21:54:47.905 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 21:54:47.909 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Executing endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:54:47.909 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Route matched with "{action = \"Adicionar\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.JogoDto]] Adicionar(FCG.Api.Dto.JogoDto)" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 21:54:48.011 [Error] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Erro ao adicionar novo produto.
+System.ArgumentException: Descrição deve ter mais de 10 caracteres
+   at FCG.Business.Models.Jogo.ValidarDescricao(String descricao) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 102
+   at FCG.Business.Models.Jogo.ValidarEntidade(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 68
+   at FCG.Business.Models.Jogo..ctor(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 24
+   at FCG.Api.MappingDtos.JogoMappingExtensions.ToDomain(JogoDto dto) in C:\Projetos\Fase01\FCG\FCG.Api\MappingDtos\JogoMappingExtensions.cs:line 28
+   at FCG.Api.Controllers.v2.JogoController.Adicionar(JogoDto produtoDto) in C:\Projetos\Fase01\FCG\FCG.Api\Controllers\v2\JogoController.cs:line 326
+2025-06-02 21:54:48.012 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Executing "ObjectResult", writing value of type '"System.String"'.
+2025-06-02 21:54:48.012 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Executed action "FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)" in 102.8659ms
+2025-06-02 21:54:48.013 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Executed endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:54:48.013 [Information] CorrelationId:24de7909-c51f-466c-89f6-2beefebb4e27 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - 500 null "text/plain; charset=utf-8" 112.2741ms
+2025-06-02 21:55:17.218 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - "application/json" 188
+2025-06-02 21:55:17.246 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 21:55:17.257 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Executing endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:55:17.257 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Route matched with "{action = \"Adicionar\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.JogoDto]] Adicionar(FCG.Api.Dto.JogoDto)" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 21:55:37.207 [Error] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Erro ao adicionar novo produto.
+System.ArgumentException: Descrição deve ter mais de 10 caracteres
+   at FCG.Business.Models.Jogo.ValidarDescricao(String descricao) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 102
+   at FCG.Business.Models.Jogo.ValidarEntidade(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 68
+   at FCG.Business.Models.Jogo..ctor(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 24
+   at FCG.Api.MappingDtos.JogoMappingExtensions.ToDomain(JogoDto dto) in C:\Projetos\Fase01\FCG\FCG.Api\MappingDtos\JogoMappingExtensions.cs:line 28
+   at FCG.Api.Controllers.v2.JogoController.Adicionar(JogoDto produtoDto) in C:\Projetos\Fase01\FCG\FCG.Api\Controllers\v2\JogoController.cs:line 326
+2025-06-02 21:55:37.208 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Executing "ObjectResult", writing value of type '"System.String"'.
+2025-06-02 21:55:37.208 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Executed action "FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)" in 19950.6546ms
+2025-06-02 21:55:37.208 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Executed endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:55:37.209 [Information] CorrelationId:0d84f257-0e62-4bc0-ab77-fbda4f97af8a Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - 500 null "text/plain; charset=utf-8" 19991.0812ms
+2025-06-02 21:55:51.881 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - "application/json" 188
+2025-06-02 21:55:51.887 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 21:55:51.888 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Executing endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:55:51.889 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Route matched with "{action = \"Adicionar\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.JogoDto]] Adicionar(FCG.Api.Dto.JogoDto)" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 21:56:29.864 [Error] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Erro ao adicionar novo produto.
+System.ArgumentException: Descrição deve ter mais de 10 caracteres
+   at FCG.Business.Models.Jogo.ValidarDescricao(String descricao) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 102
+   at FCG.Business.Models.Jogo.ValidarEntidade(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 68
+   at FCG.Business.Models.Jogo..ctor(Guid id, String nome, String descricao, String categoria, Decimal preco, DateTime dataLancamento) in C:\Projetos\Fase01\FCG\FCG.Business\Models\Jogo.cs:line 24
+   at FCG.Api.MappingDtos.JogoMappingExtensions.ToDomain(JogoDto dto) in C:\Projetos\Fase01\FCG\FCG.Api\MappingDtos\JogoMappingExtensions.cs:line 28
+   at FCG.Api.Controllers.v2.JogoController.Adicionar(JogoDto produtoDto) in C:\Projetos\Fase01\FCG\FCG.Api\Controllers\v2\JogoController.cs:line 326
+2025-06-02 21:56:29.868 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Executing "ObjectResult", writing value of type '"System.String"'.
+2025-06-02 21:56:29.876 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Executed action "FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)" in 37986.6439ms
+2025-06-02 21:56:29.878 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Executed endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:56:29.878 [Information] CorrelationId:c5be5613-c720-470f-b571-2d2a8838c0be Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - 500 null "text/plain; charset=utf-8" 37997.9925ms
+2025-06-02 21:56:43.906 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Request starting "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - "application/json" 212
+2025-06-02 21:56:43.907 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 21:56:43.907 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Executing endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:56:43.907 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Route matched with "{action = \"Adicionar\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FCG.Api.Dto.JogoDto]] Adicionar(FCG.Api.Dto.JogoDto)" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 21:56:46.227 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Executed DbCommand ("17"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Jogo] ([Id], [Categoria], [DataAtualizacao], [DataCriacao], [DataLancamento], [Descricao], [Excluido], [Nome], [Preco])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);"
+2025-06-02 21:56:46.244 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Executing "CreatedAtActionResult", writing value of type '"FCG.Api.Dto.JogoDto"'.
+2025-06-02 21:56:46.330 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Executed action "FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)" in 2422.2144ms
+2025-06-02 21:56:46.330 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Executed endpoint '"FCG.Api.Controllers.v2.JogoController.Adicionar (FCG.Api)"'
+2025-06-02 21:56:46.330 [Information] CorrelationId:f88decb9-4929-449f-8c56-8bcea03eace7 Request finished "HTTP/2" "POST" "https"://"localhost:7087""""/api/v2/Jogo/Adicionar""" - 201 null "application/json; charset=utf-8" 2424.8394ms
+2025-06-02 21:57:06.461 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Request starting "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - null null
+2025-06-02 21:57:06.462 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 JWT Token validated for user: adminuser@fiap.com.br
+2025-06-02 21:57:06.463 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Executing endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 21:57:06.463 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Route matched with "{action = \"GetTodos\", controller = \"Jogo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FCG.Api.Dto.JogoDto]]] GetTodos()" on controller "FCG.Api.Controllers.v2.JogoController" ("FCG.Api").
+2025-06-02 21:57:06.480 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [j].[Id], [j].[Categoria], [j].[DataAtualizacao], [j].[DataCriacao], [j].[DataLancamento], [j].[Descricao], [j].[Excluido], [j].[Nome], [j].[Preco]
+FROM [Jogo] AS [j]
+ORDER BY [j].[Nome]"
+2025-06-02 21:57:06.495 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Executing "OkObjectResult", writing value of type '"System.Linq.Enumerable+SelectListIterator`2[[FCG.Business.Models.Jogo, FCG.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[FCG.Api.Dto.JogoDto, FCG.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-02 21:57:06.496 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Executed action "FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)" in 33.0413ms
+2025-06-02 21:57:06.496 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Executed endpoint '"FCG.Api.Controllers.v2.JogoController.GetTodos (FCG.Api)"'
+2025-06-02 21:57:06.497 [Information] CorrelationId:e34e023c-c85f-4116-bb9e-aaadac5c9bd8 Request finished "HTTP/2" "GET" "https"://"localhost:7087""""/api/v2/Jogo/ObterTodos""" - 200 null "application/json; charset=utf-8" 36.066ms
+2025-06-02 22:02:43.521 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 22:02:44.074 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\Fase01\FCG\FCG.Api\Program.cs:line 29
+2025-06-02 22:08:38.310 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 22:08:39.543 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\TechChalange_Fase1\FCG.Api\Program.cs:line 29
+2025-06-02 22:09:07.142 [Information] CorrelationId: Iniciando WebApi
+2025-06-02 22:09:07.356 [Fatal] CorrelationId: Host terminated unexpectedly
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Projetos\TechChalange_Fase1\FCG.Api\Program.cs:line 29
